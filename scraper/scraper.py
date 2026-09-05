@@ -357,13 +357,15 @@ def generate_rss(state):
         except OSError:
             length = 0
 
+        description_html = f"<img src=\"{image_url}\" alt=\"{title}\"/>"
+
         item_xml_parts.append(
             "    <item>\n"
             f"      <title>{escape(title)}</title>\n"
             f"      <link>{escape(image_url)}</link>\n"
             f"      <guid isPermaLink=\"true\">{escape(image_url)}</guid>\n"
             f"      <pubDate>{escape(_rfc822(pub_dt))}</pubDate>\n"
-            f'      <description>{escape(f"<img src=\'{image_url}\' alt=\'{title}\'/>")}</description>\n'
+            f"      <description>{escape(description_html)}</description>\n"
             f"      <enclosure url=\"{escape(image_url)}\" length=\"{length}\" type=\"{mime}\"/>\n"
             "    </item>\n"
         )
