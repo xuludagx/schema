@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 350   # GitHub Actions'ın izin verdiği üst sınıra yakın (max 360dk)
     steps:
       - name: Kodu çek
         uses: actions/checkout@v4
@@ -37,7 +37,7 @@ jobs:
           # GITHUB_PAGES_BASE olarak veriyoruz.)
           GITHUB_PAGES_BASE: ${{ vars.PAGES_BASE_URL }}
           SITE_BASE: "https://device-forum.com"
-          MAX_PAGES: "5000"
+          MAX_PAGES: "0"
           MAX_FEED_ITEMS: "500"
           REQUEST_DELAY: "0.4"
         run: python scraper/scraper.py
