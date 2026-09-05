@@ -27,11 +27,14 @@ indirilmez.
    Birkaç dakika sonra siteniz şu adreste yayınlanır:
    `https://KULLANICI_ADIN.github.io/REPO_ADIN/`
 
-3. **GITHUB_PAGES_BASE değişkenini tanımlayın**
+3. **PAGES_BASE_URL değişkenini tanımlayın**
    Repo > Settings > Secrets and variables > Actions > **Variables** sekmesi >
    "New repository variable":
-   - Name: `GITHUB_PAGES_BASE`
+   - Name: `PAGES_BASE_URL`  (⚠️ isim `GITHUB_` ile başlayamaz, GitHub buna izin vermiyor)
    - Value: `https://KULLANICI_ADIN.github.io/REPO_ADIN/` (sonunda `/` olsun)
+
+   Örneğin repo `xuludagx/schema` ise değer:
+   `https://xuludagx.github.io/schema/`
 
 4. **Actions'ın çalışmasına izin verin**
    Repo > Settings > Actions > General > "Workflow permissions" >
@@ -71,7 +74,7 @@ indirildiğini görürsünüz.
 | `SITE_BASE`        | `https://device-forum.com`          | Taranacak sitenin kök adresi                   |
 | `START_URL`        | `SITE_BASE/media/`                  | Taramanın başlayacağı sayfa                    |
 | `GITHUB_PAGES_BASE`| —                                    | GitHub Pages adresiniz (sonunda `/` ile)       |
-| `MAX_PAGES`        | `5000`                              | Bir çalıştırmada en fazla taranacak sayfa sayısı (güvenlik limiti) |
+| `MAX_PAGES`        | `0` (sınırsız)                       | Bir çalıştırmada en fazla taranacak sayfa sayısı. `0` = limit yok, site ne kadar büyürse büyüsün (141, 500, 5000... hepsi) tamamı taranır. İsterseniz güvenlik amaçlı bir sayı verebilirsiniz. |
 | `MAX_FEED_ITEMS`   | `500`                               | rss.xml içine en fazla kaç görsel konulacağı   |
 | `REQUEST_DELAY`    | `0.4`                               | İstekler arası bekleme (saniye), siteye nazik davranmak için |
 | `MAX_RETRIES`      | `3`                                  | Hata durumunda yeniden deneme sayısı           |
@@ -84,10 +87,15 @@ indirildiğini görürsünüz.
   veya URL yapısı kullanıyorsa `scraper/scraper.py` içindeki
   `MEDIA_ID_RE` düzenli ifadesini ve `crawl_site()` fonksiyonunu
   güncellemek gerekebilir.
-- **Büyük siteler için**: İlk tarama, sitenin boyutuna göre uzun
-  sürebilir (Actions'ın tek çalıştırma limiti 55 dakika olarak
-  ayarlandı). Gerekirse `MAX_PAGES` ve `REQUEST_DELAY` değerlerini
-  workflow dosyasından ayarlayın.
+- **Büyük siteler için**: `MAX_PAGES=0` (sınırsız) olduğu için site
+  büyüdükçe (141 sayfa, ileride daha da fazlası) her saatlik tam tarama
+  daha uzun sürebilir. Workflow'un çalışma süresi GitHub Actions'ın izin
+  verdiği üst sınıra (360 dakika) göre ayarlandı. Site çok büyürse ve
+  tek çalıştırma bu süreyi de aşarsa, `REQUEST_DELAY` değerini
+  düşürerek (dikkatli şekilde) veya taramayı daha sık/az sıklıkta
+  çalıştırarak dengeleyebilirsiniz. Not: public (herkese açık)
+  repolarda GitHub Actions dakikaları ücretsizdir; private repoda
+  aylık dakika kotanız olabilir.
 - **robots.txt / hız**: Script varsayılan olarak istekler arasında
   0.4 saniye bekler; siteye aşırı yük bindirmemek için bu süreyi
   düşürmemenizi öneririm.
