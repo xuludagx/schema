@@ -46,7 +46,7 @@ IMAGES_DIR = os.path.join(DATA_DIR, "images")
 STATE_FILE = os.path.join(DATA_DIR, "state.json")
 RSS_FILE = os.environ.get("RSS_FILE", "rss.xml")
 
-MAX_PAGES = int(os.environ.get("MAX_PAGES", "5000"))            # güvenlik limiti (sayfa)
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "0"))               # 0 = sınırsız (güvenlik limiti yok)
 MAX_FEED_ITEMS = int(os.environ.get("MAX_FEED_ITEMS", "500"))   # rss.xml içine max öğe
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "0.4"))   # istekler arası bekleme (sn)
 REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "20"))
@@ -147,6 +147,19 @@ def is_same_domain(url):
         return False
 
 
+# Tarama, sitenin tamamı yerine /media/ altındaki marka/model/sayfalama
+# hiyerarşisiyle sınırlandırılır (örn. /media/page-2, /media/samsung/...).
+# Bu hem daha hızlıdır hem de forumun alakasız bölümlerine sapmayı önler.
+SCOPE_PREFIX = urlparse(START_URL).path.rstrip("/") or "/media"
+
+
+def is_in_scope(url):
+    if not is_same_domain(url):
+        return False
+    path = urlparse(url).path.rstrip("/") or "/"
+    return path == SCOPE_PREFIX or path.startswith(SCOPE_PREFIX + "/")
+
+
 def normalize_url(url):
     parsed = urlparse(url)
     parsed = parsed._replace(fragment="")
@@ -174,7 +187,7 @@ def crawl_site():
     queue = [normalize_url(START_URL)]
     media_ids = {}  # id -> {"page_url": ..., "title": ...}
 
-    while queue and len(visited) < MAX_PAGES:
+    while queue and (MAX_PAGES <= 0 or len(visited) < MAX_PAGES):
         url = queue.pop(0)
         if url in visited:
             continue
@@ -225,7 +238,7 @@ def crawl_site():
         for a in soup.find_all("a", href=True):
             href = urljoin(url, a["href"])
             href = normalize_url(href)
-            if not is_same_domain(href):
+            if not is_in_scope(href):
                 continue
 
             id_match = MEDIA_ID_RE.search(href)
@@ -399,8 +412,8 @@ def generate_rss(state):
 def main():
     log.info("=== Device Forum Scraper başlıyor ===")
     log.info(
-        "SITE_BASE=%s START_URL=%s GITHUB_PAGES_BASE=%s",
-        SITE_BASE, START_URL, GITHUB_PAGES_BASE,
+        "SITE_BASE=%s START_URL=%s GITHUB_PAGES_BASE=%s SCOPE_PREFIX=%s",
+        SITE_BASE, START_URL, GITHUB_PAGES_BASE, SCOPE_PREFIX,
     )
 
     state = load_state()
