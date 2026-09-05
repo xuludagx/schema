@@ -59,6 +59,16 @@ USER_AGENT = os.environ.get(
 # /media/758  veya  /media/758/full  gibi linkleri yakalar
 MEDIA_ID_RE = re.compile(r"/media/(\d+)(?:/full)?/?$")
 
+# Puanlama, yorum, giriş, arama gibi aksiyon linkleri: bunlar HTML içerik
+# sayfası değildir, taranmamalı (örn. /media/media-ratings/7193/rate)
+ACTION_URL_RE = re.compile(
+    r"/media-ratings/"
+    r"|/(rate|vote|comment|comments|report|quote|reply|login|logout|register"
+    r"|search|print|share|embed|edit|delete|watch|unwatch|favorite|favorites"
+    r"|subscribe|unsubscribe|follow|unfollow|attachment|attachments)(?:/|$|\?)",
+    re.IGNORECASE,
+)
+
 # Başlıkların sonundaki dosya uzantısını temizlemek için
 # örn: "SAMSUNG SM-G991 WIFI BT GPS.webp" -> "SAMSUNG SM-G991 WIFI BT GPS"
 IMAGE_EXT_SUFFIX_RE = re.compile(
@@ -156,7 +166,10 @@ SCOPE_PREFIX = urlparse(START_URL).path.rstrip("/") or "/media"
 def is_in_scope(url):
     if not is_same_domain(url):
         return False
-    path = urlparse(url).path.rstrip("/") or "/"
+    parsed = urlparse(url)
+    if ACTION_URL_RE.search(parsed.path) or ACTION_URL_RE.search(parsed.query or ""):
+        return False
+    path = parsed.path.rstrip("/") or "/"
     return path == SCOPE_PREFIX or path.startswith(SCOPE_PREFIX + "/")
 
 
