@@ -31,9 +31,11 @@ jobs:
       - name: Scraper'ı çalıştır
         env:
           # Ayarlar > Secrets and variables > Actions > Variables kısmından
-          # GITHUB_PAGES_BASE değerini "https://kullaniciadi.github.io/repo-adi/"
-          # şeklinde tanımlayın.
-          GITHUB_PAGES_BASE: ${{ vars.GITHUB_PAGES_BASE }}
+          # PAGES_BASE_URL değerini "https://kullaniciadi.github.io/repo-adi/"
+          # şeklinde tanımlayın. (Not: değişken adı "GITHUB_" ile başlayamaz,
+          # bu yüzden PAGES_BASE_URL kullanıyoruz; script içinde bunu
+          # GITHUB_PAGES_BASE olarak veriyoruz.)
+          GITHUB_PAGES_BASE: ${{ vars.PAGES_BASE_URL }}
           SITE_BASE: "https://device-forum.com"
           MAX_PAGES: "5000"
           MAX_FEED_ITEMS: "500"
