@@ -347,6 +347,11 @@ def crawl_site(known_ids, deadline):
 # İndirme (sadece yeni olanlar)
 # ---------------------------------------------------------------------------
 STATE_SAVE_EVERY = int(os.environ.get("STATE_SAVE_EVERY", "25"))  # her N indirmede bir ara kayıt
+# Tek bir çalıştırmada indirilecek MAX yeni görsel sayısı. Bunu sınırlamak,
+# git commit/push'un küçük ve güvenilir kalmasını sağlar -- binlerce yeni
+# binary dosyayı tek seferde push etmeye çalışmak GitHub tarafında
+# "HTTP 500 / remote end hung up" hatasına yol açabiliyor.
+MAX_NEW_DOWNLOADS_PER_RUN = int(os.environ.get("MAX_NEW_DOWNLOADS_PER_RUN", "300"))
 
 
 def download_new_images(media_ids, state, deadline):
@@ -358,6 +363,14 @@ def download_new_images(media_ids, state, deadline):
     for media_id, meta in media_ids.items():
         if media_id in downloaded:
             continue  # zaten indirilmiş -> tekrar indirilmiyor
+
+        if MAX_NEW_DOWNLOADS_PER_RUN > 0 and new_count >= MAX_NEW_DOWNLOADS_PER_RUN:
+            log.warning(
+                "Bu çalıştırma için indirme limiti doldu (MAX_NEW_DOWNLOADS_PER_RUN=%s). "
+                "Kalan yeni öğeler bir sonraki çalıştırmada indirilecek.",
+                MAX_NEW_DOWNLOADS_PER_RUN,
+            )
+            break
 
         if time.monotonic() > deadline:
             time_budget_hit = True
