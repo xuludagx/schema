@@ -443,7 +443,6 @@ def _rfc822(dt):
 
 def generate_rss(state):
     feed_link = GITHUB_PAGES_BASE
-    self_link = urljoin(GITHUB_PAGES_BASE, RSS_FILE)
 
     items = sorted(
         state.get("downloaded", {}).items(),
@@ -467,35 +466,36 @@ def generate_rss(state):
         except (KeyError, ValueError, TypeError):
             pub_dt = now
 
-        # sha256 dosya boyutu yerine kullanılabilir bir gösterge olarak
-        # enclosure "length" alanına 0 koyuyoruz; gerçek boyut isteğe
-        # bağlı olarak os.path.getsize ile eklenebilir.
-        img_path = os.path.join(IMAGES_DIR, meta["filename"])
-        try:
-            length = os.path.getsize(img_path)
-        except OSError:
-            length = 0
-
-        description_html = f"<img src=\"{image_url}\" alt=\"{title}\"/>"
+        # Örnek besleme (rss_xml.rss) ile aynı üslup: açıklama CDATA içinde,
+        # "Marka: ... / Kaynak sayfa: ..." satırları ve ardından <img> etiketi.
+        # Device-forum verisinde ayrı bir "marka" alanı tutulmadığından en
+        # makul tahmin olarak başlığın ilk kelimesi kullanılıyor.
+        brand_guess = (title.split() or [""])[0]
+        page_url = meta.get("page_url", image_url)
+        description_cdata = (
+            f"Marka: {brand_guess}\n"
+            f"        <br/>Kaynak sayfa: {page_url}\n"
+            f"        <br/><img src=\"{image_url}\" alt=\"{escape(title)}\" />"
+        )
 
         item_xml_parts.append(
             "    <item>\n"
             f"      <title>{escape(title)}</title>\n"
             f"      <link>{escape(image_url)}</link>\n"
-            f"      <guid isPermaLink=\"true\">{escape(image_url)}</guid>\n"
+            f"      <guid isPermaLink=\"false\">{escape(image_url)}</guid>\n"
             f"      <pubDate>{escape(_rfc822(pub_dt))}</pubDate>\n"
-            f"      <description>{escape(description_html)}</description>\n"
-            f"      <enclosure url=\"{escape(image_url)}\" length=\"{length}\" type=\"{mime}\"/>\n"
+            f"      <description><![CDATA[\n        {description_cdata}\n      ]]></description>\n"
+            f"      <enclosure url=\"{escape(image_url)}\" type=\"{mime}\"/>\n"
             "    </item>\n"
         )
 
     rss_xml = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<rss version="2.0">\n'
         "  <channel>\n"
+        "    <generator>scraper.py</generator>\n"
         "    <title>Device Forum - Görsel Akışı</title>\n"
         f"    <link>{escape(feed_link)}</link>\n"
-        f'    <atom:link href="{escape(self_link)}" rel="self" type="application/rss+xml"/>\n'
         "    <description>device-forum.com sitesinden otomatik çekilen görseller (full çözünürlük).</description>\n"
         "    <language>tr</language>\n"
         f"    <lastBuildDate>{escape(_rfc822(now))}</lastBuildDate>\n"
