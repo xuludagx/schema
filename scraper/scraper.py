@@ -303,7 +303,7 @@ def crawl_site(known_ids, deadline):
                 media_id = id_match.group(1)
 
                 if media_id in known_ids:
-                    # Zaten indirilmiş -> detay sayfasını bir daha HİÇ ziyaret etme
+                    # Zaten indirilmiş -> hiç ilgilenme
                     skipped_known += 1
                     continue
 
@@ -318,6 +318,14 @@ def crawl_site(known_ids, deadline):
                         title_source = a.get_text(strip=True) or a.get("title")
                     title = clean_title(title_source, fallback)
                     media_ids[media_id] = {"page_url": href, "title": title}
+
+                # ÖNEMLİ: medya detay sayfası (/media/{id}) BİR DAHA ZİYARET
+                # EDİLMEZ. Başlık zaten yukarıda listeleme/thumbnail linkinden
+                # alındı; detay sayfasına gidip başlığı "bir kez daha, biraz
+                # daha iyi" almaya çalışmak, ziyaret edilecek sayfa sayısını
+                # neredeyse ikiye katlıyor ve tüm zaman bütçesini taramada
+                # tüketip indirmeye hiç zaman bırakmıyordu.
+                continue
 
             if href not in visited and href not in queue:
                 queue.append(href)
