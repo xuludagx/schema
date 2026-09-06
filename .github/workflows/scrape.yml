@@ -39,6 +39,7 @@ jobs:
           SITE_BASE: "https://device-forum.com"
           MAX_PAGES: "0"
           TIME_BUDGET_SECONDS: "2400"   # 40dk: TARAMA + İNDİRME toplam bütçesi (55dk job limitine karşı güvenlik payı)
+          MAX_NEW_DOWNLOADS_PER_RUN: "300"  # commit/push küçük ve güvenilir kalsın diye
           MAX_FEED_ITEMS: "500"
           REQUEST_DELAY: "0.4"
         run: python scraper/scraper.py
@@ -51,7 +52,21 @@ jobs:
           git add data rss.xml
           if git diff --cached --quiet; then
             echo "Değişiklik yok, commit atlanıyor."
-          else
-            git commit -m "Otomatik güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "Otomatik güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # Büyük/geçici push hatalarına (örn. GitHub tarafında HTTP 500)
+          # karşı birkaç deneme hakkı tanı.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Push başarılı (deneme $attempt)."
+              exit 0
+            fi
+            echo "Push başarısız (deneme $attempt/5), 15sn sonra tekrar denenecek..."
+            git fetch origin main
+            git rebase origin/main || true
+            sleep 15
+          done
+          echo "Push 5 denemeden sonra da başarısız oldu."
+          exit 1
