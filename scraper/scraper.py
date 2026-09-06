@@ -465,19 +465,7 @@ def generate_rss(state):
                 pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         except (KeyError, ValueError, TypeError):
             pub_dt = now
-
-        # Örnek besleme (rss_xml.rss) ile aynı üslup: açıklama CDATA içinde,
-        # "Marka: ... / Kaynak sayfa: ..." satırları ve ardından <img> etiketi.
-        # Device-forum verisinde ayrı bir "marka" alanı tutulmadığından en
-        # makul tahmin olarak başlığın ilk kelimesi kullanılıyor.
-        brand_guess = (title.split() or [""])[0]
-        page_url = meta.get("page_url", image_url)
-        description_cdata = (
-            f"Marka: {brand_guess}\n"
-            f"        <br/>Kaynak sayfa: {page_url}\n"
-            f"        <br/><img src=\"{image_url}\" alt=\"{escape(title)}\" />"
-        )
-
+        
         item_xml_parts.append(
             "    <item>\n"
             f"      <title>{escape(title)}</title>\n"
