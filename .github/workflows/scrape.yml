@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 350   # GitHub Actions'ın izin verdiği üst sınıra yakın (max 360dk)
+    timeout-minutes: 55    # TIME_BUDGET_SECONDS (45dk) + kurulum/commit için tampon pay
     steps:
       - name: Kodu çek
         uses: actions/checkout@v4
@@ -38,6 +38,7 @@ jobs:
           GITHUB_PAGES_BASE: ${{ vars.PAGES_BASE_URL }}
           SITE_BASE: "https://device-forum.com"
           MAX_PAGES: "0"
+          TIME_BUDGET_SECONDS: "2700"   # 45dk sonra tarama durur, rss.xml o ana kadarkiyle üretilir
           MAX_FEED_ITEMS: "500"
           REQUEST_DELAY: "0.4"
         run: python scraper/scraper.py
