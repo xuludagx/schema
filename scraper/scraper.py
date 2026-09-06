@@ -47,6 +47,7 @@ STATE_FILE = os.path.join(DATA_DIR, "state.json")
 RSS_FILE = os.environ.get("RSS_FILE", "rss.xml")
 
 MAX_PAGES = int(os.environ.get("MAX_PAGES", "0"))               # 0 = sınırsız (güvenlik limiti yok)
+TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "2700"))  # 45 dk: bu sürede rss.xml MUTLAKA üretilir
 MAX_FEED_ITEMS = int(os.environ.get("MAX_FEED_ITEMS", "500"))   # rss.xml içine max öğe
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "0.4"))   # istekler arası bekleme (sn)
 REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "20"))
@@ -161,6 +162,13 @@ def is_same_domain(url):
 # hiyerarşisiyle sınırlandırılır (örn. /media/page-2, /media/samsung/...).
 # Bu hem daha hızlıdır hem de forumun alakasız bölümlerine sapmayı önler.
 SCOPE_PREFIX = urlparse(START_URL).path.rstrip("/") or "/media"
+SITE_HOST = urlparse(SITE_BASE).netloc.lower()
+
+# Href, şema veya "/" olmadan doğrudan bir domain adıyla başlıyorsa
+# (örn. "device-forum.com/membership/") bu, sitenin HTML'inde eksik yazılmış
+# bir linktir; urljoin bunu mevcut sayfanın ALTINA göreceli path gibi ekler
+# ve anlamsız/sonsuz URL'ler üretir. Böyle hamlar baştan elenir.
+BARE_DOMAIN_HREF_RE = re.compile(r"^[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(/|$)")
 
 
 def is_in_scope(url):
@@ -168,6 +176,14 @@ def is_in_scope(url):
         return False
     parsed = urlparse(url)
     if ACTION_URL_RE.search(parsed.path) or ACTION_URL_RE.search(parsed.query or ""):
+        return False
+    # Sitenin kendi domain adı, path içinde İKİNCİ kez geçiyorsa bu URL
+    # bozuktur: sitede "https://" veya "/" olmadan yazılmış bir href
+    # (örn. "device-forum.com/membership/"), tarayıcı tarafından mevcut
+    # sayfanın ALTINA göreceli link gibi eklenmiş demektir
+    # (örn. ".../media/299/device-forum.com/membership/"). Böyle
+    # bozuk linkler sonsuz/anlamsız URL üretimine yol açar, tamamen elenir.
+    if SITE_HOST and SITE_HOST in parsed.path.lower():
         return False
     path = parsed.path.rstrip("/") or "/"
     return path == SCOPE_PREFIX or path.startswith(SCOPE_PREFIX + "/")
@@ -194,13 +210,36 @@ def clean_title(text, fallback):
 # ---------------------------------------------------------------------------
 # Site geneli tarama (marka / model / tüm sayfalar, BFS)
 # ---------------------------------------------------------------------------
-def crawl_site():
-    """Aynı domain içinde tüm sayfaları BFS ile dolaşır, medya id'lerini toplar."""
+def crawl_site(known_ids):
+    """Aynı domain içinde tüm sayfaları BFS ile dolaşır, medya id'lerini toplar.
+
+    known_ids: zaten indirilmiş medya id'lerinin kümesi. Bu id'lerin DETAY
+    SAYFASI bir daha asla ziyaret edilmez (görseli zaten elimizde, başlığı
+    da elimizde) -> her saatlik taramanın süresi, "toplam medya sayısı"na
+    değil, sadece "sayfalama/liste sayfası sayısı + yeni öğe sayısı"na
+    bağlı kalır. Bu sayede tarama asla saatlerce sürüp rss.xml'i hiç
+    üretemeyecek şekilde takılıp kalmaz.
+    """
     visited = set()
     queue = [normalize_url(START_URL)]
     media_ids = {}  # id -> {"page_url": ..., "title": ...}
+    skipped_known = 0
+
+    start_time = time.monotonic()
+    time_budget_hit = False
 
     while queue and (MAX_PAGES <= 0 or len(visited) < MAX_PAGES):
+        if TIME_BUDGET_SECONDS > 0 and (time.monotonic() - start_time) > TIME_BUDGET_SECONDS:
+            time_budget_hit = True
+            log.warning(
+                "Zaman bütçesi doldu (%ss); tarama bu çalıştırma için durduruluyor. "
+                "rss.xml şimdiye kadar bulunanlarla üretilecek, kalan sayfalar "
+                "bir sonraki çalıştırmada (yeni öğeler zaten indirilmiş olduğundan "
+                "çok daha hızlı ilerlenerek) taranacak.",
+                TIME_BUDGET_SECONDS,
+            )
+            break
+
         url = queue.pop(0)
         if url in visited:
             continue
@@ -249,7 +288,12 @@ def crawl_site():
             media_ids.setdefault(media_id, {"page_url": url, "title": title})
 
         for a in soup.find_all("a", href=True):
-            href = urljoin(url, a["href"])
+            raw_href = a["href"].strip()
+            if BARE_DOMAIN_HREF_RE.match(raw_href):
+                # Bozuk/eksik yazılmış href (şema veya "/" yok) -> atla
+                continue
+
+            href = urljoin(url, raw_href)
             href = normalize_url(href)
             if not is_in_scope(href):
                 continue
@@ -257,6 +301,12 @@ def crawl_site():
             id_match = MEDIA_ID_RE.search(href)
             if id_match:
                 media_id = id_match.group(1)
+
+                if media_id in known_ids:
+                    # Zaten indirilmiş -> detay sayfasını bir daha HİÇ ziyaret etme
+                    skipped_known += 1
+                    continue
+
                 if media_id not in media_ids:
                     fallback = f"Media {media_id}"
                     # Link içindeki <img alt="..."> önceliklidir (genellikle dosya adı orada olur)
@@ -430,9 +480,11 @@ def main():
     )
 
     state = load_state()
+    known_ids = set(state.get("downloaded", {}).keys())
+    log.info("Zaten indirilmiş (atlanacak) medya sayısı: %s", len(known_ids))
 
     try:
-        media_ids = crawl_site()
+        media_ids = crawl_site(known_ids)
     except Exception as exc:
         log.exception("Tarama sırasında beklenmeyen hata: %s", exc)
         media_ids = {}
