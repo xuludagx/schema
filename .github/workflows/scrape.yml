@@ -38,12 +38,13 @@ jobs:
           GITHUB_PAGES_BASE: ${{ vars.PAGES_BASE_URL }}
           SITE_BASE: "https://device-forum.com"
           MAX_PAGES: "0"
-          TIME_BUDGET_SECONDS: "2700"   # 45dk sonra tarama durur, rss.xml o ana kadarkiyle üretilir
+          TIME_BUDGET_SECONDS: "2400"   # 40dk: TARAMA + İNDİRME toplam bütçesi (55dk job limitine karşı güvenlik payı)
           MAX_FEED_ITEMS: "500"
           REQUEST_DELAY: "0.4"
         run: python scraper/scraper.py
 
       - name: Değişiklikleri commit'le ve gönder
+        if: always()   # scraper adımı zaman aşımına uğrasa/hata verse bile o ana kadarki ilerleme kaydedilsin
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
