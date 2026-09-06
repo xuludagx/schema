@@ -47,7 +47,7 @@ STATE_FILE = os.path.join(DATA_DIR, "state.json")
 RSS_FILE = os.environ.get("RSS_FILE", "rss.xml")
 
 MAX_PAGES = int(os.environ.get("MAX_PAGES", "0"))               # 0 = sınırsız (güvenlik limiti yok)
-TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "2700"))  # 45 dk: bu sürede rss.xml MUTLAKA üretilir
+TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "2400"))  # 40 dk: tarama+indirme TOPLAM bütçesi, commit'e pay bırakır
 MAX_FEED_ITEMS = int(os.environ.get("MAX_FEED_ITEMS", "500"))   # rss.xml içine max öğe
 REQUEST_DELAY = float(os.environ.get("REQUEST_DELAY", "0.4"))   # istekler arası bekleme (sn)
 REQUEST_TIMEOUT = int(os.environ.get("REQUEST_TIMEOUT", "20"))
@@ -210,33 +210,33 @@ def clean_title(text, fallback):
 # ---------------------------------------------------------------------------
 # Site geneli tarama (marka / model / tüm sayfalar, BFS)
 # ---------------------------------------------------------------------------
-def crawl_site(known_ids):
+def crawl_site(known_ids, deadline):
     """Aynı domain içinde tüm sayfaları BFS ile dolaşır, medya id'lerini toplar.
 
     known_ids: zaten indirilmiş medya id'lerinin kümesi. Bu id'lerin DETAY
     SAYFASI bir daha asla ziyaret edilmez (görseli zaten elimizde, başlığı
     da elimizde) -> her saatlik taramanın süresi, "toplam medya sayısı"na
     değil, sadece "sayfalama/liste sayfası sayısı + yeni öğe sayısı"na
-    bağlı kalır. Bu sayede tarama asla saatlerce sürüp rss.xml'i hiç
-    üretemeyecek şekilde takılıp kalmaz.
+    bağlı kalır.
+
+    deadline: time.monotonic() cinsinden MUTLAK bitiş zamanı. Tüm çalıştırma
+    (tarama + indirme) tek bir ortak bütçeyi paylaşır, böylece iş GitHub
+    Actions'ın zaman aşımıyla asla ortadan kesilip commit atamadan iptal
+    olmaz.
     """
     visited = set()
     queue = [normalize_url(START_URL)]
     media_ids = {}  # id -> {"page_url": ..., "title": ...}
     skipped_known = 0
 
-    start_time = time.monotonic()
-    time_budget_hit = False
-
     while queue and (MAX_PAGES <= 0 or len(visited) < MAX_PAGES):
-        if TIME_BUDGET_SECONDS > 0 and (time.monotonic() - start_time) > TIME_BUDGET_SECONDS:
-            time_budget_hit = True
+        if time.monotonic() > deadline:
             log.warning(
-                "Zaman bütçesi doldu (%ss); tarama bu çalıştırma için durduruluyor. "
-                "rss.xml şimdiye kadar bulunanlarla üretilecek, kalan sayfalar "
-                "bir sonraki çalıştırmada (yeni öğeler zaten indirilmiş olduğundan "
-                "çok daha hızlı ilerlenerek) taranacak.",
-                TIME_BUDGET_SECONDS,
+                "Zaman bütçesi doldu; tarama bu çalıştırma için durduruluyor "
+                "(%s sayfa tarandı, %s yeni görsel adayı bulundu). Bulunanlar "
+                "indirilip rss.xml üretilecek; kalan sayfalar bir sonraki "
+                "çalıştırmada taranacak.",
+                len(visited), len(media_ids),
             )
             break
 
@@ -338,14 +338,28 @@ def crawl_site(known_ids):
 # ---------------------------------------------------------------------------
 # İndirme (sadece yeni olanlar)
 # ---------------------------------------------------------------------------
-def download_new_images(media_ids, state):
+STATE_SAVE_EVERY = int(os.environ.get("STATE_SAVE_EVERY", "25"))  # her N indirmede bir ara kayıt
+
+
+def download_new_images(media_ids, state, deadline):
     os.makedirs(IMAGES_DIR, exist_ok=True)
     downloaded = state.setdefault("downloaded", {})
     new_count = 0
+    time_budget_hit = False
 
     for media_id, meta in media_ids.items():
         if media_id in downloaded:
             continue  # zaten indirilmiş -> tekrar indirilmiyor
+
+        if time.monotonic() > deadline:
+            time_budget_hit = True
+            log.warning(
+                "Zaman bütçesi doldu; indirme bu çalıştırma için durduruluyor "
+                "(%s yeni görsel indirildi). Kalan yeni öğeler bir sonraki "
+                "çalıştırmada indirilecek.",
+                new_count,
+            )
+            break
 
         full_url = f"{SITE_BASE}/media/{media_id}/full"
         resp = fetch(full_url, stream=True)
@@ -379,6 +393,14 @@ def download_new_images(media_ids, state):
         }
         new_count += 1
         log.info("Yeni görsel indirildi: %s (%s)", filename, meta.get("title"))
+
+        if new_count % STATE_SAVE_EVERY == 0:
+            # Uzun indirme sırasında ara ara kaydet: iş sert şekilde
+            # durdurulursa bile diskte en güncel ilerleme kalsın.
+            try:
+                save_state(state)
+            except OSError as exc:
+                log.error("Ara state kaydı başarısız: %s", exc)
 
     log.info("Yeni indirilen görsel sayısı: %s", new_count)
     return new_count
@@ -475,23 +497,28 @@ def generate_rss(state):
 def main():
     log.info("=== Device Forum Scraper başlıyor ===")
     log.info(
-        "SITE_BASE=%s START_URL=%s GITHUB_PAGES_BASE=%s SCOPE_PREFIX=%s",
-        SITE_BASE, START_URL, GITHUB_PAGES_BASE, SCOPE_PREFIX,
+        "SITE_BASE=%s START_URL=%s GITHUB_PAGES_BASE=%s SCOPE_PREFIX=%s TIME_BUDGET_SECONDS=%s",
+        SITE_BASE, START_URL, GITHUB_PAGES_BASE, SCOPE_PREFIX, TIME_BUDGET_SECONDS,
     )
+
+    # Tarama + indirme TEK bir ortak zaman bütçesini paylaşır. Bu sayede
+    # süreç, GitHub Actions'ın job zaman aşımına yakalanıp rss.xml'i hiç
+    # üretemeden/commit atamadan iptal edilemez.
+    deadline = time.monotonic() + TIME_BUDGET_SECONDS if TIME_BUDGET_SECONDS > 0 else float("inf")
 
     state = load_state()
     known_ids = set(state.get("downloaded", {}).keys())
     log.info("Zaten indirilmiş (atlanacak) medya sayısı: %s", len(known_ids))
 
     try:
-        media_ids = crawl_site(known_ids)
+        media_ids = crawl_site(known_ids, deadline)
     except Exception as exc:
         log.exception("Tarama sırasında beklenmeyen hata: %s", exc)
         media_ids = {}
 
     if media_ids:
         try:
-            download_new_images(media_ids, state)
+            download_new_images(media_ids, state, deadline)
         except Exception as exc:
             log.exception("İndirme sırasında beklenmeyen hata: %s", exc)
         finally:
