@@ -465,7 +465,12 @@ def generate_rss(state):
                 pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         except (KeyError, ValueError, TypeError):
             pub_dt = now
-        
+
+        # Açıklamada sadece görsel: Marka/Kaynak sayfa satırları kaldırıldı
+        # (site tarafında hataya yol açıyordu ve zaten gösterilmesi
+        # istenmiyor). Başlık ayrıca <title> alanında geliyor.
+        description_cdata = f"<img src=\"{image_url}\" alt=\"{escape(title)}\" />"
+
         item_xml_parts.append(
             "    <item>\n"
             f"      <title>{escape(title)}</title>\n"
