@@ -19944,6 +19944,14 @@
       "source_url": "https://device-forum.com/media/3523/full",
       "title": "REDMI K40 WIFI BT GPS"
     },
+    "3524": {
+      "downloaded_at": "2026-09-09T05:56:24.284510+00:00",
+      "filename": "3524.jpg",
+      "page_url": "https://device-forum.com/media/3524/",
+      "sha256": "535c155d5cc55039037e3b866faeac2cae5f2211829e5a348a06efb5ba0effc4",
+      "source_url": "https://device-forum.com/media/3524/full",
+      "title": "REDMI K40S BACK CAM 2M"
+    },
     "3525": {
       "downloaded_at": "2026-09-09T01:15:29.260526+00:00",
       "filename": "3525.jpg",
@@ -20120,6 +20128,46 @@
       "source_url": "https://device-forum.com/media/3544/full",
       "title": "REDMI K40S WIFI BT GPS"
     },
+    "3545": {
+      "downloaded_at": "2026-09-09T05:56:38.771460+00:00",
+      "filename": "3545.jpg",
+      "page_url": "https://device-forum.com/media/3545/",
+      "sha256": "90d3c5ce95b5e8f8c2fad54eb80b98978f63299c7fe1da9f69d4696e0f2efc90",
+      "source_url": "https://device-forum.com/media/3545/full",
+      "title": "REDMI K50 GAMING BACK CAM 2M"
+    },
+    "3546": {
+      "downloaded_at": "2026-09-09T05:56:38.155141+00:00",
+      "filename": "3546.jpg",
+      "page_url": "https://device-forum.com/media/3546/",
+      "sha256": "69ad08f43cab0ed153d812e080e45959b5e541f1d29095902ef084312135e4d1",
+      "source_url": "https://device-forum.com/media/3546/full",
+      "title": "REDMI K50 GAMING BACK CAM 8M (2)"
+    },
+    "3547": {
+      "downloaded_at": "2026-09-09T05:56:37.542268+00:00",
+      "filename": "3547.jpg",
+      "page_url": "https://device-forum.com/media/3547/",
+      "sha256": "eb03f2bb937bcbeb370d10458a60cd12b97929f5baa53e1295bbed8482496965",
+      "source_url": "https://device-forum.com/media/3547/full",
+      "title": "REDMI K50 GAMING BACK CAM 8M"
+    },
+    "3548": {
+      "downloaded_at": "2026-09-09T05:56:36.927296+00:00",
+      "filename": "3548.jpg",
+      "page_url": "https://device-forum.com/media/3548/",
+      "sha256": "cee097095eaae79bd9232af5ecd52b2dc058ba21f4989f6591243de7c95a1ab0",
+      "source_url": "https://device-forum.com/media/3548/full",
+      "title": "REDMI K50 GAMING BACK CAM 64M (2)"
+    },
+    "3549": {
+      "downloaded_at": "2026-09-09T05:56:36.306437+00:00",
+      "filename": "3549.jpg",
+      "page_url": "https://device-forum.com/media/3549/",
+      "sha256": "1cbf743e75970103e8979ca639c16b70a816cdcf25d08f46b7fea0b50efc2e91",
+      "source_url": "https://device-forum.com/media/3549/full",
+      "title": "REDMI K50 GAMING BACK CAM 64M"
+    },
     "355": {
       "downloaded_at": "2026-09-06T13:41:06.280577+00:00",
       "filename": "355.jpg",
@@ -20127,6 +20175,86 @@
       "sha256": "a35bcfb3df0fcf8ba5aa5fdd680b3407c04ed422467ab602b0408da004091f63",
       "source_url": "https://device-forum.com/media/355/full",
       "title": "iPhone 8 PLUS QCM MIC SPK EAR 3"
+    },
+    "3550": {
+      "downloaded_at": "2026-09-09T05:56:35.693981+00:00",
+      "filename": "3550.jpg",
+      "page_url": "https://device-forum.com/media/3550/",
+      "sha256": "cee7360db0a45e4e58d26fcc3ed7d01bde1c98b4c89bd07fea6c9a2a5ac749f0",
+      "source_url": "https://device-forum.com/media/3550/full",
+      "title": "REDMI K50 GAMING CHARGER DATA"
+    },
+    "3551": {
+      "downloaded_at": "2026-09-09T05:56:35.075880+00:00",
+      "filename": "3551.jpg",
+      "page_url": "https://device-forum.com/media/3551/",
+      "sha256": "610216bb387d9888e77a75eb725c729e32fc6e22dce29f30966ead7e25bbd039",
+      "source_url": "https://device-forum.com/media/3551/full",
+      "title": "REDMI K50 GAMING COMP NAME BOTTOM"
+    },
+    "3552": {
+      "downloaded_at": "2026-09-09T05:56:34.461053+00:00",
+      "filename": "3552.jpg",
+      "page_url": "https://device-forum.com/media/3552/",
+      "sha256": "dba19593a99ca7b8faff90ffb355ebca168a9fef59f39c442cb9885714e03651",
+      "source_url": "https://device-forum.com/media/3552/full",
+      "title": "REDMI K50 GAMING COMP NAME TOP"
+    },
+    "3553": {
+      "downloaded_at": "2026-09-09T05:56:33.850407+00:00",
+      "filename": "3553.jpg",
+      "page_url": "https://device-forum.com/media/3553/",
+      "sha256": "92f1cfe01496bd7ddc77bb6e78bf9c3db9396962ecd0b0746b53c81c4967cbd1",
+      "source_url": "https://device-forum.com/media/3553/full",
+      "title": "REDMI K50 GAMING CPU VOLT"
+    },
+    "3554": {
+      "downloaded_at": "2026-09-09T05:56:33.230222+00:00",
+      "filename": "3554.jpg",
+      "page_url": "https://device-forum.com/media/3554/",
+      "sha256": "01abc8ac9fae890a4b8a5b2d5b278c8c3ab9b6bd1ef67db43512481719dbdba9",
+      "source_url": "https://device-forum.com/media/3554/full",
+      "title": "REDMI K50 GAMING FINGERPRINT"
+    },
+    "3555": {
+      "downloaded_at": "2026-09-09T05:56:32.619593+00:00",
+      "filename": "3555.jpg",
+      "page_url": "https://device-forum.com/media/3555/",
+      "sha256": "d28ef46746aea7cb74d46a5ca4bebf48c72a6019a9b3346518c0027d97d9f9f2",
+      "source_url": "https://device-forum.com/media/3555/full",
+      "title": "REDMI K50 GAMING FRONT CAM"
+    },
+    "3556": {
+      "downloaded_at": "2026-09-09T05:56:32.004153+00:00",
+      "filename": "3556.jpg",
+      "page_url": "https://device-forum.com/media/3556/",
+      "sha256": "d0bc667100534211a3da415698b256a3bb40091cf887ba5e6221706ef89f2cf3",
+      "source_url": "https://device-forum.com/media/3556/full",
+      "title": "REDMI K50 GAMING HANDSFREE"
+    },
+    "3557": {
+      "downloaded_at": "2026-09-09T05:56:31.388174+00:00",
+      "filename": "3557.jpg",
+      "page_url": "https://device-forum.com/media/3557/",
+      "sha256": "d827fdce7d4982a45c132d833826bfb621d578b729414f47ad15ad02a7e9efee",
+      "source_url": "https://device-forum.com/media/3557/full",
+      "title": "REDMI K50 GAMING IN OUT VOLT"
+    },
+    "3558": {
+      "downloaded_at": "2026-09-09T05:56:30.775626+00:00",
+      "filename": "3558.jpg",
+      "page_url": "https://device-forum.com/media/3558/",
+      "sha256": "aaab1338bc10b9840cadcf26e2a03031d1755c05facab3dfa71446aba6de6b96",
+      "source_url": "https://device-forum.com/media/3558/full",
+      "title": "REDMI K50 GAMING LCD LIGHT"
+    },
+    "3559": {
+      "downloaded_at": "2026-09-09T05:56:30.159123+00:00",
+      "filename": "3559.jpg",
+      "page_url": "https://device-forum.com/media/3559/",
+      "sha256": "1ed2e580d24be681c3e42b6423918513c7d3fcb5f69c6e7b5290d434abd40653",
+      "source_url": "https://device-forum.com/media/3559/full",
+      "title": "REDMI K50 GAMING LCD"
     },
     "356": {
       "downloaded_at": "2026-09-06T13:41:05.682768+00:00",
@@ -20136,6 +20264,86 @@
       "source_url": "https://device-forum.com/media/356/full",
       "title": "iPhone 8 PLUS QCM MIC SPK EAR"
     },
+    "3560": {
+      "downloaded_at": "2026-09-09T05:56:29.548332+00:00",
+      "filename": "3560.jpg",
+      "page_url": "https://device-forum.com/media/3560/",
+      "sha256": "cacafa0c1d1a7669525ea9fe08ae44260018175f5123564f807d8f4d07ea8dd5",
+      "source_url": "https://device-forum.com/media/3560/full",
+      "title": "REDMI K50 GAMING MIC SPK EAR (2)"
+    },
+    "3561": {
+      "downloaded_at": "2026-09-09T05:56:28.930495+00:00",
+      "filename": "3561.jpg",
+      "page_url": "https://device-forum.com/media/3561/",
+      "sha256": "c9a7835d0242bf749f02496ea3edf5fd30ecad961adea863b727877b2b3e89ea",
+      "source_url": "https://device-forum.com/media/3561/full",
+      "title": "REDMI K50 GAMING MIC SPK EAR"
+    },
+    "3562": {
+      "downloaded_at": "2026-09-09T05:56:28.314708+00:00",
+      "filename": "3562.jpg",
+      "page_url": "https://device-forum.com/media/3562/",
+      "sha256": "6d79752ff41dfe5da61879751a03d052761d7c959bc91d1871065a6032dd9167",
+      "source_url": "https://device-forum.com/media/3562/full",
+      "title": "REDMI K50 GAMING NETWORK"
+    },
+    "3563": {
+      "downloaded_at": "2026-09-09T05:56:27.702337+00:00",
+      "filename": "3563.jpg",
+      "page_url": "https://device-forum.com/media/3563/",
+      "sha256": "57d3e0904b4b4e118d71744017839e145e2bca227cfd49f82098f7545a2075fd",
+      "source_url": "https://device-forum.com/media/3563/full",
+      "title": "REDMI K50 GAMING ON OFF VOL"
+    },
+    "3564": {
+      "downloaded_at": "2026-09-09T05:56:27.084416+00:00",
+      "filename": "3564.jpg",
+      "page_url": "https://device-forum.com/media/3564/",
+      "sha256": "376a8a8ec048fa282302227a3fc88edc9348ef815911443ec622770744d19055",
+      "source_url": "https://device-forum.com/media/3564/full",
+      "title": "REDMI K50 GAMING SIM CARD"
+    },
+    "3565": {
+      "downloaded_at": "2026-09-09T05:56:26.469161+00:00",
+      "filename": "3565.jpg",
+      "page_url": "https://device-forum.com/media/3565/",
+      "sha256": "d411f00172e1f44cd57a517c9723d7ce2efb62bc00f60a1349e46741a602ece0",
+      "source_url": "https://device-forum.com/media/3565/full",
+      "title": "REDMI K50 GAMING SUB BOARD (ORI)"
+    },
+    "3566": {
+      "downloaded_at": "2026-09-09T05:56:25.858705+00:00",
+      "filename": "3566.jpg",
+      "page_url": "https://device-forum.com/media/3566/",
+      "sha256": "e625bbcae6cf919a1580236f96e54d8631a8e4bbbca292bea8325afe78fb4c51",
+      "source_url": "https://device-forum.com/media/3566/full",
+      "title": "REDMI K50 GAMING TOUCHSCREEN"
+    },
+    "3567": {
+      "downloaded_at": "2026-09-09T05:56:25.244567+00:00",
+      "filename": "3567.jpg",
+      "page_url": "https://device-forum.com/media/3567/",
+      "sha256": "b45aef4b93d12bca3d09d42f5f8a796163b4c6959b5d6678ce62c468cdee58d4",
+      "source_url": "https://device-forum.com/media/3567/full",
+      "title": "REDMI K50 GAMING WIFI BT GPS"
+    },
+    "3568": {
+      "downloaded_at": "2026-09-09T05:57:14.235429+00:00",
+      "filename": "3568.jpg",
+      "page_url": "https://device-forum.com/media/3568/",
+      "sha256": "7fa4183bdc4119124b2ab5232ccfe0f2439fe3ac40822d80bf2e9a7a3b47744b",
+      "source_url": "https://device-forum.com/media/3568/full",
+      "title": "Xiaomi MI NOTE BAMBO BACK CAM"
+    },
+    "3569": {
+      "downloaded_at": "2026-09-09T05:57:13.622525+00:00",
+      "filename": "3569.jpg",
+      "page_url": "https://device-forum.com/media/3569/",
+      "sha256": "8941dc15322f2babd8cafa2b443eafe4c9e0b86f3f9d063cd40d5b6b2f6dad7d",
+      "source_url": "https://device-forum.com/media/3569/full",
+      "title": "Xiaomi MI NOTE BAMBO CHARGER DATA"
+    },
     "357": {
       "downloaded_at": "2026-09-06T13:41:05.084087+00:00",
       "filename": "357.jpg",
@@ -20143,6 +20351,86 @@
       "sha256": "d9e8327d1c1d90e10f90a7dde37abeb5f997efbcff8b5c37a7d254d7784abdc1",
       "source_url": "https://device-forum.com/media/357/full",
       "title": "iPhone 8 PLUS QCM NETWORK 2"
+    },
+    "3570": {
+      "downloaded_at": "2026-09-09T05:57:13.006021+00:00",
+      "filename": "3570.jpg",
+      "page_url": "https://device-forum.com/media/3570/",
+      "sha256": "bee2b9fecf72d7634c7307985c57b2a559185158c103fbc338f343bc9e0a0b63",
+      "source_url": "https://device-forum.com/media/3570/full",
+      "title": "Xiaomi MI NOTE BAMBO COMP NAME BOTTOM"
+    },
+    "3571": {
+      "downloaded_at": "2026-09-09T05:57:12.386978+00:00",
+      "filename": "3571.jpg",
+      "page_url": "https://device-forum.com/media/3571/",
+      "sha256": "4345d18e4ebf9516941212b1f07c5bbe3e8b1aa0c604da4ead2294268924e888",
+      "source_url": "https://device-forum.com/media/3571/full",
+      "title": "Xiaomi MI NOTE BAMBO COMP NAME TOP"
+    },
+    "3572": {
+      "downloaded_at": "2026-09-09T05:57:11.775635+00:00",
+      "filename": "3572.jpg",
+      "page_url": "https://device-forum.com/media/3572/",
+      "sha256": "70eba2cebad712edca4fca6b81377e3e7569838761e40b0ab27c6bc271db5abd",
+      "source_url": "https://device-forum.com/media/3572/full",
+      "title": "Xiaomi MI NOTE BAMBO CPU VOLT"
+    },
+    "3573": {
+      "downloaded_at": "2026-09-09T05:57:11.155981+00:00",
+      "filename": "3573.jpg",
+      "page_url": "https://device-forum.com/media/3573/",
+      "sha256": "ddefc41ec9e5f226147d823089fdb2b5d5f2f0027a2f6a7f80206da96bb9d402",
+      "source_url": "https://device-forum.com/media/3573/full",
+      "title": "Xiaomi MI NOTE BAMBO FRONT CAM"
+    },
+    "3574": {
+      "downloaded_at": "2026-09-09T05:57:10.489028+00:00",
+      "filename": "3574.jpg",
+      "page_url": "https://device-forum.com/media/3574/",
+      "sha256": "2873c889e32d0e89c56e9eb1074ce551d7a42f3eed08b93d7f089772bd333d9a",
+      "source_url": "https://device-forum.com/media/3574/full",
+      "title": "Xiaomi MI NOTE BAMBO HANDSFREE"
+    },
+    "3575": {
+      "downloaded_at": "2026-09-09T05:57:09.876711+00:00",
+      "filename": "3575.jpg",
+      "page_url": "https://device-forum.com/media/3575/",
+      "sha256": "8587c6c8104a58923a3a8c939282947f7d31e5a186fcfbb83a706bb52d2ef380",
+      "source_url": "https://device-forum.com/media/3575/full",
+      "title": "Xiaomi MI NOTE BAMBO IN OUT VOLT"
+    },
+    "3576": {
+      "downloaded_at": "2026-09-09T05:57:09.256699+00:00",
+      "filename": "3576.jpg",
+      "page_url": "https://device-forum.com/media/3576/",
+      "sha256": "2a43f9c40321081b8225a6e8d65a0e4e22a1d2684de99e0d872f24911408cadf",
+      "source_url": "https://device-forum.com/media/3576/full",
+      "title": "Xiaomi MI NOTE BAMBO LCD LIGHT"
+    },
+    "3577": {
+      "downloaded_at": "2026-09-09T05:57:08.644341+00:00",
+      "filename": "3577.jpg",
+      "page_url": "https://device-forum.com/media/3577/",
+      "sha256": "b1ea02e2541028b23e57b5a90e339db6dee357970837fef5e7a5349b535aab96",
+      "source_url": "https://device-forum.com/media/3577/full",
+      "title": "Xiaomi MI NOTE BAMBO LCD"
+    },
+    "3578": {
+      "downloaded_at": "2026-09-09T05:57:08.025330+00:00",
+      "filename": "3578.jpg",
+      "page_url": "https://device-forum.com/media/3578/",
+      "sha256": "dba62b6fbb930ddcfd1eb9f86515b5c7a8d3a606cb8ca1f3023becb8bc74a487",
+      "source_url": "https://device-forum.com/media/3578/full",
+      "title": "Xiaomi MI NOTE BAMBO MIC SPK EAR"
+    },
+    "3579": {
+      "downloaded_at": "2026-09-09T05:57:07.408181+00:00",
+      "filename": "3579.jpg",
+      "page_url": "https://device-forum.com/media/3579/",
+      "sha256": "c7ff1988cd54a726a36e3a4b4f0c9264397c96581b2a903d1deeaf27da6d05fa",
+      "source_url": "https://device-forum.com/media/3579/full",
+      "title": "Xiaomi MI NOTE BAMBO NETWORK"
     },
     "358": {
       "downloaded_at": "2026-09-06T13:41:04.482864+00:00",
@@ -20152,6 +20440,86 @@
       "source_url": "https://device-forum.com/media/358/full",
       "title": "iPhone 8 PLUS QCM NETWORK"
     },
+    "3580": {
+      "downloaded_at": "2026-09-09T05:57:06.796563+00:00",
+      "filename": "3580.jpg",
+      "page_url": "https://device-forum.com/media/3580/",
+      "sha256": "66dd17ba5830f4e64cb2fd4f78d7cc364b2e2d1a8825273223b3d127c455aba6",
+      "source_url": "https://device-forum.com/media/3580/full",
+      "title": "Xiaomi MI NOTE BAMBO ON OFF VOL"
+    },
+    "3581": {
+      "downloaded_at": "2026-09-09T05:57:06.177554+00:00",
+      "filename": "3581.jpg",
+      "page_url": "https://device-forum.com/media/3581/",
+      "sha256": "800cf506b66f27ed8c5e8e4f0374b794e8c739eec1b5ec7c859eb9c8640efa8b",
+      "source_url": "https://device-forum.com/media/3581/full",
+      "title": "Xiaomi MI NOTE BAMBO SIM CARD"
+    },
+    "3582": {
+      "downloaded_at": "2026-09-09T05:57:05.565708+00:00",
+      "filename": "3582.jpg",
+      "page_url": "https://device-forum.com/media/3582/",
+      "sha256": "52c1f00919765554dbee228dc905916423c1976994ad201924cf97a0708f10c5",
+      "source_url": "https://device-forum.com/media/3582/full",
+      "title": "Xiaomi MI NOTE BAMBO SUB BOARD (ORI)"
+    },
+    "3583": {
+      "downloaded_at": "2026-09-09T05:57:04.950476+00:00",
+      "filename": "3583.jpg",
+      "page_url": "https://device-forum.com/media/3583/",
+      "sha256": "7dab91f9e5cab43400bd48b255dcd41d71be55b68caf039c5d38aa940738e771",
+      "source_url": "https://device-forum.com/media/3583/full",
+      "title": "Xiaomi MI NOTE BAMBO SUB BOARD"
+    },
+    "3584": {
+      "downloaded_at": "2026-09-09T05:57:04.336601+00:00",
+      "filename": "3584.jpg",
+      "page_url": "https://device-forum.com/media/3584/",
+      "sha256": "0c3fef5f35c14dc05732ae2ba52c37e86d81394c9f816a3ea310db9928f3c1ae",
+      "source_url": "https://device-forum.com/media/3584/full",
+      "title": "Xiaomi MI NOTE BAMBO TOUCHSCREEN"
+    },
+    "3585": {
+      "downloaded_at": "2026-09-09T05:57:03.722892+00:00",
+      "filename": "3585.jpg",
+      "page_url": "https://device-forum.com/media/3585/",
+      "sha256": "1bce8af1c3053292e75a8c39222848020d8d9c9738f89a4a1fecefed67945d99",
+      "source_url": "https://device-forum.com/media/3585/full",
+      "title": "Xiaomi MI NOTE BAMBO UFS EMMC VOLT"
+    },
+    "3586": {
+      "downloaded_at": "2026-09-09T05:57:03.103574+00:00",
+      "filename": "3586.jpg",
+      "page_url": "https://device-forum.com/media/3586/",
+      "sha256": "f0eea447934151747d134332107496a418bf5591fb27735cee1844ad6721d04f",
+      "source_url": "https://device-forum.com/media/3586/full",
+      "title": "Xiaomi MI NOTE BAMBO WIFI BT GPS"
+    },
+    "3587": {
+      "downloaded_at": "2026-09-09T05:57:26.624803+00:00",
+      "filename": "3587.jpg",
+      "page_url": "https://device-forum.com/media/3587/",
+      "sha256": "a290b45deea2035eaa7a203f2085a2b91f9b6b432769e8086b31957f74a31db0",
+      "source_url": "https://device-forum.com/media/3587/full",
+      "title": "REDMI NOTE 1S BACK CAM (2)"
+    },
+    "3588": {
+      "downloaded_at": "2026-09-09T05:57:25.956369+00:00",
+      "filename": "3588.jpg",
+      "page_url": "https://device-forum.com/media/3588/",
+      "sha256": "5501417d31d2e3a8fdc1470b8319dc1317d25926b77e8eca303990160c87e155",
+      "source_url": "https://device-forum.com/media/3588/full",
+      "title": "REDMI NOTE 1S BACK CAM"
+    },
+    "3589": {
+      "downloaded_at": "2026-09-09T05:57:25.338997+00:00",
+      "filename": "3589.jpg",
+      "page_url": "https://device-forum.com/media/3589/",
+      "sha256": "64efa7aca381cb9321c6ac4900ca9d72ab64649afe5d229482b5e404ca36aa8c",
+      "source_url": "https://device-forum.com/media/3589/full",
+      "title": "REDMI NOTE 1S CHARGER DATA"
+    },
     "359": {
       "downloaded_at": "2026-09-06T13:41:03.886397+00:00",
       "filename": "359.jpg",
@@ -20159,6 +20527,86 @@
       "sha256": "9adeeb0a6b628d4f6843802fec1441c51cf529330303d9c3c328c7d40f673eaa",
       "source_url": "https://device-forum.com/media/359/full",
       "title": "iPhone 8 PLUS QCM ON OFF VOL"
+    },
+    "3590": {
+      "downloaded_at": "2026-09-09T05:57:24.724923+00:00",
+      "filename": "3590.jpg",
+      "page_url": "https://device-forum.com/media/3590/",
+      "sha256": "fb7b4e800456d9e95885b88536b0272a3adc6afcd04a5e0280904ce2f7e631c5",
+      "source_url": "https://device-forum.com/media/3590/full",
+      "title": "REDMI NOTE 1S COMP NAME BOTTOM"
+    },
+    "3591": {
+      "downloaded_at": "2026-09-09T05:57:24.106281+00:00",
+      "filename": "3591.jpg",
+      "page_url": "https://device-forum.com/media/3591/",
+      "sha256": "c8ef7faf727cbd2dc92cb4c3f9d41f24ab1977a7fe5fba47ba9a69c7085a0fc6",
+      "source_url": "https://device-forum.com/media/3591/full",
+      "title": "REDMI NOTE 1S COMP NAME TOP"
+    },
+    "3592": {
+      "downloaded_at": "2026-09-09T05:57:23.489474+00:00",
+      "filename": "3592.jpg",
+      "page_url": "https://device-forum.com/media/3592/",
+      "sha256": "2eeab584750cd88684a1e780a4a9ab43ab1a87807e6b23ac4de38e748b1f7058",
+      "source_url": "https://device-forum.com/media/3592/full",
+      "title": "REDMI NOTE 1S CPU VOLT"
+    },
+    "3593": {
+      "downloaded_at": "2026-09-09T05:57:22.876220+00:00",
+      "filename": "3593.jpg",
+      "page_url": "https://device-forum.com/media/3593/",
+      "sha256": "1aea9c7a62c6f06f42b35e1b96482945ed1ac4ea3e173a2781d360d1abe80d6f",
+      "source_url": "https://device-forum.com/media/3593/full",
+      "title": "REDMI NOTE 1S FRONT CAM (2)"
+    },
+    "3594": {
+      "downloaded_at": "2026-09-09T05:57:22.258310+00:00",
+      "filename": "3594.jpg",
+      "page_url": "https://device-forum.com/media/3594/",
+      "sha256": "7f751cc0c413136574b0d9b5e3f26df72e657c557cc55a573b98501b8e350337",
+      "source_url": "https://device-forum.com/media/3594/full",
+      "title": "REDMI NOTE 1S FRONT CAM"
+    },
+    "3595": {
+      "downloaded_at": "2026-09-09T05:57:21.645860+00:00",
+      "filename": "3595.jpg",
+      "page_url": "https://device-forum.com/media/3595/",
+      "sha256": "e09c8e6b1863b04853b36f2339d84b987680a2aede6768d1e4a5094a22edfb1e",
+      "source_url": "https://device-forum.com/media/3595/full",
+      "title": "REDMI NOTE 1S HANDSFREE"
+    },
+    "3596": {
+      "downloaded_at": "2026-09-09T05:57:21.025361+00:00",
+      "filename": "3596.jpg",
+      "page_url": "https://device-forum.com/media/3596/",
+      "sha256": "e4ed64adf7da8a4e10ca3d3abd43c3bfa1b7d06bdf7abee29d0f220164054e13",
+      "source_url": "https://device-forum.com/media/3596/full",
+      "title": "REDMI NOTE 1S IN OUT VOLT"
+    },
+    "3597": {
+      "downloaded_at": "2026-09-09T05:57:20.404962+00:00",
+      "filename": "3597.jpg",
+      "page_url": "https://device-forum.com/media/3597/",
+      "sha256": "0a1137a7e3304d9d8eae21fc2198d7d4fe949704c670ec354149caabac962fbe",
+      "source_url": "https://device-forum.com/media/3597/full",
+      "title": "REDMI NOTE 1S LCD LIGHT"
+    },
+    "3598": {
+      "downloaded_at": "2026-09-09T05:57:19.792278+00:00",
+      "filename": "3598.jpg",
+      "page_url": "https://device-forum.com/media/3598/",
+      "sha256": "12d64d5272c992e747f1e66f6a60f822d09025412d0a383cf2ece070a46155ed",
+      "source_url": "https://device-forum.com/media/3598/full",
+      "title": "REDMI NOTE 1S LCD"
+    },
+    "3599": {
+      "downloaded_at": "2026-09-09T05:57:19.173850+00:00",
+      "filename": "3599.jpg",
+      "page_url": "https://device-forum.com/media/3599/",
+      "sha256": "eda42fe3269bb08b1345e54d70acadbb5187ead503a249df75289cbc47962e30",
+      "source_url": "https://device-forum.com/media/3599/full",
+      "title": "REDMI NOTE 1S MIC SPK EAR"
     },
     "360": {
       "downloaded_at": "2026-09-06T13:41:03.288184+00:00",
@@ -20168,6 +20616,86 @@
       "source_url": "https://device-forum.com/media/360/full",
       "title": "iPhone 8 PLUS QCM SIMCARD"
     },
+    "3600": {
+      "downloaded_at": "2026-09-09T05:57:18.561448+00:00",
+      "filename": "3600.jpg",
+      "page_url": "https://device-forum.com/media/3600/",
+      "sha256": "6703296af0ac23369d3f3ac4b8d68bfeb8b440638122d3bfa8eaaec53db8a39a",
+      "source_url": "https://device-forum.com/media/3600/full",
+      "title": "REDMI NOTE 1S NETWORK"
+    },
+    "3601": {
+      "downloaded_at": "2026-09-09T05:57:17.939769+00:00",
+      "filename": "3601.jpg",
+      "page_url": "https://device-forum.com/media/3601/",
+      "sha256": "62c0397f4c4bc69be29134a667e2507f389d09f4d6250be4ce19668e3e6d521c",
+      "source_url": "https://device-forum.com/media/3601/full",
+      "title": "REDMI NOTE 1S ON OFF VOL"
+    },
+    "3602": {
+      "downloaded_at": "2026-09-09T05:57:17.322274+00:00",
+      "filename": "3602.jpg",
+      "page_url": "https://device-forum.com/media/3602/",
+      "sha256": "bb2e2866be851d15906b4856ea20a148cde18a5b9af34e0bbc7eeba6dfa4cd2e",
+      "source_url": "https://device-forum.com/media/3602/full",
+      "title": "REDMI NOTE 1S SD CARD"
+    },
+    "3603": {
+      "downloaded_at": "2026-09-09T05:57:16.706581+00:00",
+      "filename": "3603.jpg",
+      "page_url": "https://device-forum.com/media/3603/",
+      "sha256": "0425b947ba62df4e611159ae29f3be12c7327107dbc3e1b0c22dc4d93c70c7d6",
+      "source_url": "https://device-forum.com/media/3603/full",
+      "title": "REDMI NOTE 1S SIM CARD"
+    },
+    "3604": {
+      "downloaded_at": "2026-09-09T05:57:16.088855+00:00",
+      "filename": "3604.jpg",
+      "page_url": "https://device-forum.com/media/3604/",
+      "sha256": "81a50685c0dfe02a302c4c91c892220d055644c116f98d2e5a7e00a1bd54b690",
+      "source_url": "https://device-forum.com/media/3604/full",
+      "title": "REDMI NOTE 1S TOUCHSCREEN"
+    },
+    "3605": {
+      "downloaded_at": "2026-09-09T05:57:15.467472+00:00",
+      "filename": "3605.jpg",
+      "page_url": "https://device-forum.com/media/3605/",
+      "sha256": "5e9c62d4f446457fbca4342c977366ec51a3ceb18816dc8dbee137fff104c753",
+      "source_url": "https://device-forum.com/media/3605/full",
+      "title": "REDMI NOTE 1S UFS EMMC VOLT"
+    },
+    "3606": {
+      "downloaded_at": "2026-09-09T05:57:14.854455+00:00",
+      "filename": "3606.jpg",
+      "page_url": "https://device-forum.com/media/3606/",
+      "sha256": "06ac4613e0863a9774ff6d9e6e0966280aeda67574ddc655f3f6ca712202ad9a",
+      "source_url": "https://device-forum.com/media/3606/full",
+      "title": "REDMI NOTE 1S WIFI BT GPS"
+    },
+    "3607": {
+      "downloaded_at": "2026-09-09T05:57:37.110462+00:00",
+      "filename": "3607.jpg",
+      "page_url": "https://device-forum.com/media/3607/",
+      "sha256": "b80f927f3b3eaa9fef9aca4a9699c394a6e374fd2ebe0e2ca7233ed9f85672ad",
+      "source_url": "https://device-forum.com/media/3607/full",
+      "title": "REDMI NOTE 1W BACK CAM"
+    },
+    "3608": {
+      "downloaded_at": "2026-09-09T05:57:36.488983+00:00",
+      "filename": "3608.jpg",
+      "page_url": "https://device-forum.com/media/3608/",
+      "sha256": "8b39b66af6424ae83feff41adc02db8fd0a44d8ac5d5f438e3c60f00ead44877",
+      "source_url": "https://device-forum.com/media/3608/full",
+      "title": "REDMI NOTE 1W CHARGER DATA"
+    },
+    "3609": {
+      "downloaded_at": "2026-09-09T05:57:35.875244+00:00",
+      "filename": "3609.jpg",
+      "page_url": "https://device-forum.com/media/3609/",
+      "sha256": "34c02c54f6b2103a549972276ed70786a0d8277166c1dcb3e649a8323eb06c99",
+      "source_url": "https://device-forum.com/media/3609/full",
+      "title": "REDMI NOTE 1W COMP NAME BOTTOM"
+    },
     "361": {
       "downloaded_at": "2026-09-06T13:41:02.692384+00:00",
       "filename": "361.jpg",
@@ -20175,6 +20703,86 @@
       "sha256": "3005e1e3bbfc18177fcd1bce63300d2df5960a8a8fef5baec8a996b0d6a6dfdc",
       "source_url": "https://device-forum.com/media/361/full",
       "title": "iPhone 8 PLUS QCM TOUCH SCREEN"
+    },
+    "3610": {
+      "downloaded_at": "2026-09-09T05:57:35.258293+00:00",
+      "filename": "3610.jpg",
+      "page_url": "https://device-forum.com/media/3610/",
+      "sha256": "138f63df505f81742aae409264acfcf70b8ad13b7faa05852af223fd406112ba",
+      "source_url": "https://device-forum.com/media/3610/full",
+      "title": "REDMI NOTE 1W COMP NAME TOP"
+    },
+    "3611": {
+      "downloaded_at": "2026-09-09T05:57:34.645361+00:00",
+      "filename": "3611.jpg",
+      "page_url": "https://device-forum.com/media/3611/",
+      "sha256": "9cfe3275fc603415da99165143e5dc5cad83557ec3ae76321610c422644c2995",
+      "source_url": "https://device-forum.com/media/3611/full",
+      "title": "REDMI NOTE 1W CPU VOLT"
+    },
+    "3612": {
+      "downloaded_at": "2026-09-09T05:57:34.026661+00:00",
+      "filename": "3612.jpg",
+      "page_url": "https://device-forum.com/media/3612/",
+      "sha256": "10ac75ce110c68e0cdf17b885bf4bfa4b9c67d247461ee36611c3bb0452a5366",
+      "source_url": "https://device-forum.com/media/3612/full",
+      "title": "REDMI NOTE 1W FRONT CAM"
+    },
+    "3613": {
+      "downloaded_at": "2026-09-09T05:57:33.407270+00:00",
+      "filename": "3613.jpg",
+      "page_url": "https://device-forum.com/media/3613/",
+      "sha256": "4edf4c8c8a45a0ffaadc5892645766b495eb545507fc6b4cdf72ecf4e41c7ca6",
+      "source_url": "https://device-forum.com/media/3613/full",
+      "title": "REDMI NOTE 1W HANDSFREE"
+    },
+    "3614": {
+      "downloaded_at": "2026-09-09T05:57:32.795302+00:00",
+      "filename": "3614.jpg",
+      "page_url": "https://device-forum.com/media/3614/",
+      "sha256": "163771168753edc3b65f9f77ed503a60f9864b03580b734dbd0acfe482c242d5",
+      "source_url": "https://device-forum.com/media/3614/full",
+      "title": "REDMI NOTE 1W IN OUT VOLT"
+    },
+    "3615": {
+      "downloaded_at": "2026-09-09T05:57:32.175320+00:00",
+      "filename": "3615.jpg",
+      "page_url": "https://device-forum.com/media/3615/",
+      "sha256": "aa201ad37c7c84217a764ad1fd84c46197aa5a663b012fd0732279f9caf6b447",
+      "source_url": "https://device-forum.com/media/3615/full",
+      "title": "REDMI NOTE 1W LCD LIGHT"
+    },
+    "3616": {
+      "downloaded_at": "2026-09-09T05:57:31.564296+00:00",
+      "filename": "3616.jpg",
+      "page_url": "https://device-forum.com/media/3616/",
+      "sha256": "1d3deb15bbc94f928a9aa22d044c92e05666c083103bf41b1b8b92f972b0ea8d",
+      "source_url": "https://device-forum.com/media/3616/full",
+      "title": "REDMI NOTE 1W LCD"
+    },
+    "3617": {
+      "downloaded_at": "2026-09-09T05:57:30.943980+00:00",
+      "filename": "3617.jpg",
+      "page_url": "https://device-forum.com/media/3617/",
+      "sha256": "ca621d350d13af036379fb867e112cfa39c6239f07ee1a11a1d16c39f8677d11",
+      "source_url": "https://device-forum.com/media/3617/full",
+      "title": "REDMI NOTE 1W MIC SPK EAR"
+    },
+    "3618": {
+      "downloaded_at": "2026-09-09T05:57:30.327255+00:00",
+      "filename": "3618.jpg",
+      "page_url": "https://device-forum.com/media/3618/",
+      "sha256": "da14cb36d078cf4cb394f62026b03a390fec696ed303d27cb481ee09cc0b5478",
+      "source_url": "https://device-forum.com/media/3618/full",
+      "title": "REDMI NOTE 1W NETWORK"
+    },
+    "3619": {
+      "downloaded_at": "2026-09-09T05:57:29.713949+00:00",
+      "filename": "3619.jpg",
+      "page_url": "https://device-forum.com/media/3619/",
+      "sha256": "8c9cb89b1bad0ee277f6eff6fa28b86a0f08a8da5bc9ce2545fb6e4e59a5f9d4",
+      "source_url": "https://device-forum.com/media/3619/full",
+      "title": "REDMI NOTE 1W ON OFF VOL"
     },
     "362": {
       "downloaded_at": "2026-09-06T13:41:02.088223+00:00",
@@ -20184,6 +20792,86 @@
       "source_url": "https://device-forum.com/media/362/full",
       "title": "iPhone 8 PLUS QCM WIFI BT GPS 2"
     },
+    "3620": {
+      "downloaded_at": "2026-09-09T05:57:29.098302+00:00",
+      "filename": "3620.jpg",
+      "page_url": "https://device-forum.com/media/3620/",
+      "sha256": "ea444c8bfe83c5c5d46cdc355beb953807b3cc07ff7c4d0e157ecc30f369b0d0",
+      "source_url": "https://device-forum.com/media/3620/full",
+      "title": "REDMI NOTE 1W SD CARD"
+    },
+    "3621": {
+      "downloaded_at": "2026-09-09T05:57:28.481038+00:00",
+      "filename": "3621.jpg",
+      "page_url": "https://device-forum.com/media/3621/",
+      "sha256": "9babfeed98064eaecffa422763280e8b614ebc558adce282c4683e5216caef32",
+      "source_url": "https://device-forum.com/media/3621/full",
+      "title": "REDMI NOTE 1W SIM CARD"
+    },
+    "3622": {
+      "downloaded_at": "2026-09-09T05:57:27.865990+00:00",
+      "filename": "3622.jpg",
+      "page_url": "https://device-forum.com/media/3622/",
+      "sha256": "2e86631207c5d33633d8ac1348cabcd7de5598c7f22201eaf8f9d53f24b53db0",
+      "source_url": "https://device-forum.com/media/3622/full",
+      "title": "REDMI NOTE 1W TOUCHSCREEN"
+    },
+    "3623": {
+      "downloaded_at": "2026-09-09T05:57:27.242957+00:00",
+      "filename": "3623.jpg",
+      "page_url": "https://device-forum.com/media/3623/",
+      "sha256": "b9a6ea262e8cff2389ef3c702881cbd0e877835c4528b616657b63acb8d7f5f6",
+      "source_url": "https://device-forum.com/media/3623/full",
+      "title": "REDMI NOTE 1W WIFI BT GPS"
+    },
+    "3624": {
+      "downloaded_at": "2026-09-09T05:57:48.255032+00:00",
+      "filename": "3624.jpg",
+      "page_url": "https://device-forum.com/media/3624/",
+      "sha256": "6d0fce12bdf393d737fa31c5ea920a0d98ee12da256b70c90fed750fff3a3410",
+      "source_url": "https://device-forum.com/media/3624/full",
+      "title": "REDMI NOTE 2 MTK BACK CAM"
+    },
+    "3625": {
+      "downloaded_at": "2026-09-09T05:57:47.639240+00:00",
+      "filename": "3625.jpg",
+      "page_url": "https://device-forum.com/media/3625/",
+      "sha256": "3c858e89b3a245271479c31811def94826e87f20092ffa361f1cbcfb7f2b1166",
+      "source_url": "https://device-forum.com/media/3625/full",
+      "title": "REDMI NOTE 2 MTK CHARGER DATA"
+    },
+    "3626": {
+      "downloaded_at": "2026-09-09T05:57:47.021211+00:00",
+      "filename": "3626.jpg",
+      "page_url": "https://device-forum.com/media/3626/",
+      "sha256": "98f5f66cc11e38eee2b439cb394e93bafd3d561b7f475e0f4a1dc0ba77b2a99d",
+      "source_url": "https://device-forum.com/media/3626/full",
+      "title": "REDMI NOTE 2 MTK COMP NAME (2)"
+    },
+    "3627": {
+      "downloaded_at": "2026-09-09T05:57:46.404711+00:00",
+      "filename": "3627.jpg",
+      "page_url": "https://device-forum.com/media/3627/",
+      "sha256": "d9d26f27d3b5136dbbfd1708d4c299158a7f1d678aa5ffc7e8c623b57246fe2d",
+      "source_url": "https://device-forum.com/media/3627/full",
+      "title": "REDMI NOTE 2 MTK COMP NAME"
+    },
+    "3628": {
+      "downloaded_at": "2026-09-09T05:57:45.791252+00:00",
+      "filename": "3628.jpg",
+      "page_url": "https://device-forum.com/media/3628/",
+      "sha256": "5a5893858548fc3c7d8d883ba56d7b20d00614b945fc8074a3115303987e3039",
+      "source_url": "https://device-forum.com/media/3628/full",
+      "title": "REDMI NOTE 2 MTK CPU VOLT"
+    },
+    "3629": {
+      "downloaded_at": "2026-09-09T05:57:45.170241+00:00",
+      "filename": "3629.jpg",
+      "page_url": "https://device-forum.com/media/3629/",
+      "sha256": "d4105789bf7e24c9b6ad5ad0f494d375bef9e293cb85d1a44272ef401b852884",
+      "source_url": "https://device-forum.com/media/3629/full",
+      "title": "REDMI NOTE 2 MTK FRONT CAM"
+    },
     "363": {
       "downloaded_at": "2026-09-06T13:41:01.483376+00:00",
       "filename": "363.jpg",
@@ -20191,6 +20879,86 @@
       "sha256": "b6754b02acb5d7598d5f73c85973ae839568d234bc50541a6d7e6222a28e0216",
       "source_url": "https://device-forum.com/media/363/full",
       "title": "iPhone 8 PLUS QCM WIFI BT GPS"
+    },
+    "3630": {
+      "downloaded_at": "2026-09-09T05:57:44.557950+00:00",
+      "filename": "3630.jpg",
+      "page_url": "https://device-forum.com/media/3630/",
+      "sha256": "385641ff162f46ab0c18a85d55ab45ad0b0d083e38a3c9e42eb7ae23db939fd3",
+      "source_url": "https://device-forum.com/media/3630/full",
+      "title": "REDMI NOTE 2 MTK HANDSFREE"
+    },
+    "3631": {
+      "downloaded_at": "2026-09-09T05:57:43.939700+00:00",
+      "filename": "3631.jpg",
+      "page_url": "https://device-forum.com/media/3631/",
+      "sha256": "43cffa4c56d8d047cecbbc0f9fabfebb6c117076b248ddb626800e4603d6308d",
+      "source_url": "https://device-forum.com/media/3631/full",
+      "title": "REDMI NOTE 2 MTK IN OUT VOLT"
+    },
+    "3632": {
+      "downloaded_at": "2026-09-09T05:57:43.322348+00:00",
+      "filename": "3632.jpg",
+      "page_url": "https://device-forum.com/media/3632/",
+      "sha256": "bd8ace785ec7c057632773450993f01cbcbe515ba28eacb3bd32a7b77ee37436",
+      "source_url": "https://device-forum.com/media/3632/full",
+      "title": "REDMI NOTE 2 MTK LCD LIGHT"
+    },
+    "3633": {
+      "downloaded_at": "2026-09-09T05:57:42.708080+00:00",
+      "filename": "3633.jpg",
+      "page_url": "https://device-forum.com/media/3633/",
+      "sha256": "6adb16313eb38493ebb28fc9169244277eab8176b9bdb13393214d1b507448fd",
+      "source_url": "https://device-forum.com/media/3633/full",
+      "title": "REDMI NOTE 2 MTK LCD"
+    },
+    "3634": {
+      "downloaded_at": "2026-09-09T05:57:42.088473+00:00",
+      "filename": "3634.jpg",
+      "page_url": "https://device-forum.com/media/3634/",
+      "sha256": "4f75193ffa4c195458d3d874b75abe26291936f74e43249cca7b2652d36755c3",
+      "source_url": "https://device-forum.com/media/3634/full",
+      "title": "REDMI NOTE 2 MTK MIC SPK EAR"
+    },
+    "3635": {
+      "downloaded_at": "2026-09-09T05:57:41.422251+00:00",
+      "filename": "3635.jpg",
+      "page_url": "https://device-forum.com/media/3635/",
+      "sha256": "a29b34f1166dbd0c88909325ec075892a3ac25d061129a3a5210a8c3d04b7276",
+      "source_url": "https://device-forum.com/media/3635/full",
+      "title": "REDMI NOTE 2 MTK NETWORK"
+    },
+    "3636": {
+      "downloaded_at": "2026-09-09T05:57:40.809059+00:00",
+      "filename": "3636.jpg",
+      "page_url": "https://device-forum.com/media/3636/",
+      "sha256": "65c931c5b22193d42abe0e6c42e64224db398d3349cdec91a8d78e425a42db58",
+      "source_url": "https://device-forum.com/media/3636/full",
+      "title": "REDMI NOTE 2 MTK ON OFF VOL"
+    },
+    "3637": {
+      "downloaded_at": "2026-09-09T05:57:40.192025+00:00",
+      "filename": "3637.jpg",
+      "page_url": "https://device-forum.com/media/3637/",
+      "sha256": "c8b49cb51a08cc80bf097d92946c5a272db23ee5cc88d0ae6227f02b09c11069",
+      "source_url": "https://device-forum.com/media/3637/full",
+      "title": "REDMI NOTE 2 MTK SD CARD"
+    },
+    "3638": {
+      "downloaded_at": "2026-09-09T05:57:39.578539+00:00",
+      "filename": "3638.jpg",
+      "page_url": "https://device-forum.com/media/3638/",
+      "sha256": "1a6f1de3c105033f5f88670992382cd0029bf9657fdd5e09f82887c51a324dcf",
+      "source_url": "https://device-forum.com/media/3638/full",
+      "title": "REDMI NOTE 2 MTK SIM CARD"
+    },
+    "3639": {
+      "downloaded_at": "2026-09-09T05:57:38.958617+00:00",
+      "filename": "3639.jpg",
+      "page_url": "https://device-forum.com/media/3639/",
+      "sha256": "c7d45eeb82b28eafd1a1eb44af2ede61f3fb92fc0cc63f32f1d95870ca3872be",
+      "source_url": "https://device-forum.com/media/3639/full",
+      "title": "REDMI NOTE 2 MTK SUB BOARD (ORI)"
     },
     "364": {
       "downloaded_at": "2026-09-06T13:42:00.980257+00:00",
@@ -20200,6 +20968,86 @@
       "source_url": "https://device-forum.com/media/364/full",
       "title": "iPhone SE BACK CAM"
     },
+    "3640": {
+      "downloaded_at": "2026-09-09T05:57:38.341328+00:00",
+      "filename": "3640.jpg",
+      "page_url": "https://device-forum.com/media/3640/",
+      "sha256": "4fdd1f5da693a1a86494c69dea825b812d0c47481e961edf469b99fb08c32439",
+      "source_url": "https://device-forum.com/media/3640/full",
+      "title": "REDMI NOTE 2 MTK TOUCHSCREEN"
+    },
+    "3641": {
+      "downloaded_at": "2026-09-09T05:57:37.727404+00:00",
+      "filename": "3641.jpg",
+      "page_url": "https://device-forum.com/media/3641/",
+      "sha256": "843de3863e1c9dca0dacd25820f50c23f73d45371b475357c28f97d9da0b9fc3",
+      "source_url": "https://device-forum.com/media/3641/full",
+      "title": "REDMI NOTE 2 MTK WIFI BT GPS"
+    },
+    "3642": {
+      "downloaded_at": "2026-09-09T05:57:59.400606+00:00",
+      "filename": "3642.jpg",
+      "page_url": "https://device-forum.com/media/3642/",
+      "sha256": "f757180c0647c33dc6f7fc349a561f3dbcd75fdfe035cfc08faef6e75c9653e8",
+      "source_url": "https://device-forum.com/media/3642/full",
+      "title": "REDMI NOTE 3 MTK BACK CAM"
+    },
+    "3643": {
+      "downloaded_at": "2026-09-09T05:57:58.784801+00:00",
+      "filename": "3643.jpg",
+      "page_url": "https://device-forum.com/media/3643/",
+      "sha256": "410b7f97691e80fd35fc0c4f7b8d11a8c22bb4b1281f8ff5d5ab65e77a3809a9",
+      "source_url": "https://device-forum.com/media/3643/full",
+      "title": "REDMI NOTE 3 MTK CHARGER DATA"
+    },
+    "3644": {
+      "downloaded_at": "2026-09-09T05:57:58.166872+00:00",
+      "filename": "3644.jpg",
+      "page_url": "https://device-forum.com/media/3644/",
+      "sha256": "e3fd18441d167aa1fe2eb97b891b128bc4b18cc5dd37f9557f91b242bc4561e2",
+      "source_url": "https://device-forum.com/media/3644/full",
+      "title": "REDMI NOTE 3 MTK CHARGER USB"
+    },
+    "3645": {
+      "downloaded_at": "2026-09-09T05:57:57.553587+00:00",
+      "filename": "3645.jpg",
+      "page_url": "https://device-forum.com/media/3645/",
+      "sha256": "72b316df125c85ef6aa27e171b623d1473daf0687e2ff5450297df399916fff3",
+      "source_url": "https://device-forum.com/media/3645/full",
+      "title": "REDMI NOTE 3 MTK COMP NAME BOTTOM"
+    },
+    "3646": {
+      "downloaded_at": "2026-09-09T05:57:56.886330+00:00",
+      "filename": "3646.jpg",
+      "page_url": "https://device-forum.com/media/3646/",
+      "sha256": "581fc22ef4360a718e9a4545b8b469c11552c021f80dee1644bd5c053baf4e43",
+      "source_url": "https://device-forum.com/media/3646/full",
+      "title": "REDMI NOTE 3 MTK COMP NAME TOP"
+    },
+    "3647": {
+      "downloaded_at": "2026-09-09T05:57:56.271003+00:00",
+      "filename": "3647.jpg",
+      "page_url": "https://device-forum.com/media/3647/",
+      "sha256": "df78bb2a7042381724c133dc4b7328e3e1af89d9bfb205d14e3309256e34bc50",
+      "source_url": "https://device-forum.com/media/3647/full",
+      "title": "REDMI NOTE 3 MTK FRONT CAM (2)"
+    },
+    "3648": {
+      "downloaded_at": "2026-09-09T05:57:55.657624+00:00",
+      "filename": "3648.jpg",
+      "page_url": "https://device-forum.com/media/3648/",
+      "sha256": "ca717b523b61ae84dfe35b2ac7d1556b287e774909d5583fd9731c4ae3d8a0e3",
+      "source_url": "https://device-forum.com/media/3648/full",
+      "title": "REDMI NOTE 3 MTK FRONT CAM"
+    },
+    "3649": {
+      "downloaded_at": "2026-09-09T05:57:55.039492+00:00",
+      "filename": "3649.jpg",
+      "page_url": "https://device-forum.com/media/3649/",
+      "sha256": "9e6b260fff96d5724daa18f5ec38eb54928e82cbe420e511bc3d44df52b9a278",
+      "source_url": "https://device-forum.com/media/3649/full",
+      "title": "REDMI NOTE 3 MTK HANDSFREE"
+    },
     "365": {
       "downloaded_at": "2026-09-06T13:42:00.379354+00:00",
       "filename": "365.jpg",
@@ -20207,6 +21055,86 @@
       "sha256": "ec206b5b39a5145f5031f2fce8b3ff31dce80223e5377b777b5469d225404589",
       "source_url": "https://device-forum.com/media/365/full",
       "title": "iPhone SE BB CIRCUIT 2"
+    },
+    "3650": {
+      "downloaded_at": "2026-09-09T05:57:54.418623+00:00",
+      "filename": "3650.jpg",
+      "page_url": "https://device-forum.com/media/3650/",
+      "sha256": "63485bc0f17b2d63b70628467dc760aed14bfb1e725dd655ca7542f4cbb6ce60",
+      "source_url": "https://device-forum.com/media/3650/full",
+      "title": "REDMI NOTE 3 MTK IN OUT VOLT"
+    },
+    "3651": {
+      "downloaded_at": "2026-09-09T05:57:53.804665+00:00",
+      "filename": "3651.jpg",
+      "page_url": "https://device-forum.com/media/3651/",
+      "sha256": "ab9802de8deaa254f48e52980ce22e656618c45fe98453c134f6f88c7adddb23",
+      "source_url": "https://device-forum.com/media/3651/full",
+      "title": "REDMI NOTE 3 MTK LCD LIGHT"
+    },
+    "3652": {
+      "downloaded_at": "2026-09-09T05:57:53.185378+00:00",
+      "filename": "3652.jpg",
+      "page_url": "https://device-forum.com/media/3652/",
+      "sha256": "76bb21e20b3800c5bd3d73a536f4cd40e8d9ca7bbeaa13ed5801d8beb4925799",
+      "source_url": "https://device-forum.com/media/3652/full",
+      "title": "REDMI NOTE 3 MTK LCD"
+    },
+    "3653": {
+      "downloaded_at": "2026-09-09T05:57:52.572011+00:00",
+      "filename": "3653.jpg",
+      "page_url": "https://device-forum.com/media/3653/",
+      "sha256": "f0e8a3566e2c5a2019fecbb478454eb59774224c73619d9c693ec766140433c1",
+      "source_url": "https://device-forum.com/media/3653/full",
+      "title": "REDMI NOTE 3 MTK MIC SPK EAR"
+    },
+    "3654": {
+      "downloaded_at": "2026-09-09T05:57:51.954329+00:00",
+      "filename": "3654.jpg",
+      "page_url": "https://device-forum.com/media/3654/",
+      "sha256": "716de27b40cc7f46495a8e892492086bc191bd6471bb529053951f9f51588510",
+      "source_url": "https://device-forum.com/media/3654/full",
+      "title": "REDMI NOTE 3 MTK NETWORK"
+    },
+    "3655": {
+      "downloaded_at": "2026-09-09T05:57:51.338439+00:00",
+      "filename": "3655.jpg",
+      "page_url": "https://device-forum.com/media/3655/",
+      "sha256": "b4fb28d7c5012d46fabed3d4ae68bde309c5a9b54adee39ecdb8ad5380d42fc2",
+      "source_url": "https://device-forum.com/media/3655/full",
+      "title": "REDMI NOTE 3 MTK ON OFF VOL"
+    },
+    "3656": {
+      "downloaded_at": "2026-09-09T05:57:50.724008+00:00",
+      "filename": "3656.jpg",
+      "page_url": "https://device-forum.com/media/3656/",
+      "sha256": "58dd2f3a31163cdf94bbb45db5ab0fad4583287fc67e7803fdddc4b81c7e9cbf",
+      "source_url": "https://device-forum.com/media/3656/full",
+      "title": "REDMI NOTE 3 MTK SIM CARD"
+    },
+    "3657": {
+      "downloaded_at": "2026-09-09T05:57:50.104372+00:00",
+      "filename": "3657.jpg",
+      "page_url": "https://device-forum.com/media/3657/",
+      "sha256": "782625ab7bf9ca5482de9af18c29fe6c9fd44482491b215c09c535e7d1da851c",
+      "source_url": "https://device-forum.com/media/3657/full",
+      "title": "REDMI NOTE 3 MTK SUB BOARD"
+    },
+    "3658": {
+      "downloaded_at": "2026-09-09T05:57:49.487810+00:00",
+      "filename": "3658.jpg",
+      "page_url": "https://device-forum.com/media/3658/",
+      "sha256": "bde770f2903897ec93d34b32692c8d32a591f0c3c6291587b38130552e0b6125",
+      "source_url": "https://device-forum.com/media/3658/full",
+      "title": "REDMI NOTE 3 MTK TOUCHSCREEN"
+    },
+    "3659": {
+      "downloaded_at": "2026-09-09T05:57:48.874020+00:00",
+      "filename": "3659.jpg",
+      "page_url": "https://device-forum.com/media/3659/",
+      "sha256": "9358240f04e460b9b5ba1457711b05bcae80f3dfa6e226f819f2d42f20a77f3e",
+      "source_url": "https://device-forum.com/media/3659/full",
+      "title": "REDMI NOTE 3 MTK WIFI BT GPS"
     },
     "366": {
       "downloaded_at": "2026-09-06T13:41:59.783500+00:00",
@@ -20216,6 +21144,86 @@
       "source_url": "https://device-forum.com/media/366/full",
       "title": "iPhone SE BB CIRCUIT 3"
     },
+    "3660": {
+      "downloaded_at": "2026-09-09T05:58:10.522692+00:00",
+      "filename": "3660.jpg",
+      "page_url": "https://device-forum.com/media/3660/",
+      "sha256": "0d89776a530085d085fabf0e34366a29e65d3f8d04b6634bf7cfac4d8ef2e2c1",
+      "source_url": "https://device-forum.com/media/3660/full",
+      "title": "REDMI NOTE 3 QC BACK CAM"
+    },
+    "3661": {
+      "downloaded_at": "2026-09-09T05:58:09.908845+00:00",
+      "filename": "3661.jpg",
+      "page_url": "https://device-forum.com/media/3661/",
+      "sha256": "0bfe434f37b02375d3c4625f0b55ef9aea314a252c442575f3278e8190a36c80",
+      "source_url": "https://device-forum.com/media/3661/full",
+      "title": "REDMI NOTE 3 QC CHARGER DATA"
+    },
+    "3662": {
+      "downloaded_at": "2026-09-09T05:58:09.277450+00:00",
+      "filename": "3662.jpg",
+      "page_url": "https://device-forum.com/media/3662/",
+      "sha256": "ac334903dbf18d4edc981da95eb03a261bffbde619d35aefd7310ece023d8e1e",
+      "source_url": "https://device-forum.com/media/3662/full",
+      "title": "REDMI NOTE 3 QC COMP NAME (2)"
+    },
+    "3663": {
+      "downloaded_at": "2026-09-09T05:58:08.665700+00:00",
+      "filename": "3663.jpg",
+      "page_url": "https://device-forum.com/media/3663/",
+      "sha256": "94e938de3495b36b4573131933bed7bd819439a699d8851343b9b504e92f41ac",
+      "source_url": "https://device-forum.com/media/3663/full",
+      "title": "REDMI NOTE 3 QC COMP NAME"
+    },
+    "3664": {
+      "downloaded_at": "2026-09-09T05:58:08.048668+00:00",
+      "filename": "3664.jpg",
+      "page_url": "https://device-forum.com/media/3664/",
+      "sha256": "eb48d2ed452351600215e225b42efd4bb58b0773a1d288ba9889fb75dc17f956",
+      "source_url": "https://device-forum.com/media/3664/full",
+      "title": "REDMI NOTE 3 QC FINGERPRINT"
+    },
+    "3665": {
+      "downloaded_at": "2026-09-09T05:58:07.432793+00:00",
+      "filename": "3665.jpg",
+      "page_url": "https://device-forum.com/media/3665/",
+      "sha256": "5204d31b9db9915f11b7187549b08232476bdfa3b86c56fb8ebf4356daaaeb52",
+      "source_url": "https://device-forum.com/media/3665/full",
+      "title": "REDMI NOTE 3 QC FRONT CAM"
+    },
+    "3666": {
+      "downloaded_at": "2026-09-09T05:58:06.819186+00:00",
+      "filename": "3666.jpg",
+      "page_url": "https://device-forum.com/media/3666/",
+      "sha256": "7f68e95cb8c6a50863dec88cd68e5ae5ceadd598d9094fcc2106ef79db8dbd46",
+      "source_url": "https://device-forum.com/media/3666/full",
+      "title": "REDMI NOTE 3 QC HANDSFREE"
+    },
+    "3667": {
+      "downloaded_at": "2026-09-09T05:58:06.196871+00:00",
+      "filename": "3667.jpg",
+      "page_url": "https://device-forum.com/media/3667/",
+      "sha256": "677447c7c675608e3fcae49f8f8062da56fc0bdf23e611db0a00116e532c9899",
+      "source_url": "https://device-forum.com/media/3667/full",
+      "title": "REDMI NOTE 3 QC IN OUT VOLT"
+    },
+    "3668": {
+      "downloaded_at": "2026-09-09T05:58:05.580601+00:00",
+      "filename": "3668.jpg",
+      "page_url": "https://device-forum.com/media/3668/",
+      "sha256": "002f066dc21d230d0b9fe17855ceeee8dae1faabd0f828078ef7c42e92a08455",
+      "source_url": "https://device-forum.com/media/3668/full",
+      "title": "REDMI NOTE 3 QC LCD LIGHT"
+    },
+    "3669": {
+      "downloaded_at": "2026-09-09T05:58:04.963954+00:00",
+      "filename": "3669.jpg",
+      "page_url": "https://device-forum.com/media/3669/",
+      "sha256": "5df0daa3259b335e27663b88df15543f8c5a9dfdc7b502340952b4719c4c4e2d",
+      "source_url": "https://device-forum.com/media/3669/full",
+      "title": "REDMI NOTE 3 QC LCD"
+    },
     "367": {
       "downloaded_at": "2026-09-06T13:41:59.184311+00:00",
       "filename": "367.jpg",
@@ -20223,6 +21231,86 @@
       "sha256": "e14bc5054977845cce62dc195fa2b94094570157af6c0af614b653ef81755605",
       "source_url": "https://device-forum.com/media/367/full",
       "title": "iPhone SE BB CIRCUIT"
+    },
+    "3670": {
+      "downloaded_at": "2026-09-09T05:58:04.344273+00:00",
+      "filename": "3670.jpg",
+      "page_url": "https://device-forum.com/media/3670/",
+      "sha256": "20789a4fd44e8a96f1579e49538aac2e6df8c107b153f937274ec14f2134f524",
+      "source_url": "https://device-forum.com/media/3670/full",
+      "title": "REDMI NOTE 3 QC MIC SPK EAR"
+    },
+    "3671": {
+      "downloaded_at": "2026-09-09T05:58:03.730777+00:00",
+      "filename": "3671.jpg",
+      "page_url": "https://device-forum.com/media/3671/",
+      "sha256": "842a165a2b2ab214ee4ccc2414ce686e12da22f35c810d597874e70211f5a961",
+      "source_url": "https://device-forum.com/media/3671/full",
+      "title": "REDMI NOTE 3 QC NETWORK"
+    },
+    "3672": {
+      "downloaded_at": "2026-09-09T05:58:03.110081+00:00",
+      "filename": "3672.jpg",
+      "page_url": "https://device-forum.com/media/3672/",
+      "sha256": "4438fceb15b8cd5f153360792dfdfde6075e9a9f1c4ad9ff5da4f554202bbfbc",
+      "source_url": "https://device-forum.com/media/3672/full",
+      "title": "REDMI NOTE 3 QC ON OFF VOL"
+    },
+    "3673": {
+      "downloaded_at": "2026-09-09T05:58:02.490738+00:00",
+      "filename": "3673.jpg",
+      "page_url": "https://device-forum.com/media/3673/",
+      "sha256": "bed5d52e98c115f950a94c0c82b435e23f7e0d5b77f13d04da90732a3a27b734",
+      "source_url": "https://device-forum.com/media/3673/full",
+      "title": "REDMI NOTE 3 QC SIM CARD"
+    },
+    "3674": {
+      "downloaded_at": "2026-09-09T05:58:01.876083+00:00",
+      "filename": "3674.jpg",
+      "page_url": "https://device-forum.com/media/3674/",
+      "sha256": "d3741d1676081556338b42a5f6a8f194e980505d512dd40ec9a24604c1d9286c",
+      "source_url": "https://device-forum.com/media/3674/full",
+      "title": "REDMI NOTE 3 QC SUB BOARD"
+    },
+    "3675": {
+      "downloaded_at": "2026-09-09T05:58:01.261187+00:00",
+      "filename": "3675.jpg",
+      "page_url": "https://device-forum.com/media/3675/",
+      "sha256": "29b06d14cf6b6aef7f107cc89e292ea8f277558e7d140419f11f1f13a631c24b",
+      "source_url": "https://device-forum.com/media/3675/full",
+      "title": "REDMI NOTE 3 QC TOUCH SCREEN"
+    },
+    "3676": {
+      "downloaded_at": "2026-09-09T05:58:00.641042+00:00",
+      "filename": "3676.jpg",
+      "page_url": "https://device-forum.com/media/3676/",
+      "sha256": "6594c3bdf9b35c86161ffaaefd4493b3161633897e8ddaf2b899fa1a23b1d4dd",
+      "source_url": "https://device-forum.com/media/3676/full",
+      "title": "REDMI NOTE 3 QC UFS EMMC VOLT"
+    },
+    "3677": {
+      "downloaded_at": "2026-09-09T05:58:00.018205+00:00",
+      "filename": "3677.jpg",
+      "page_url": "https://device-forum.com/media/3677/",
+      "sha256": "4690175dd8881db4e860d50fa1504b3360bf849bc98352a455a9b0d6d0920905",
+      "source_url": "https://device-forum.com/media/3677/full",
+      "title": "REDMI NOTE 3 QC WIFI BT GPS"
+    },
+    "3678": {
+      "downloaded_at": "2026-09-09T05:58:21.662770+00:00",
+      "filename": "3678.jpg",
+      "page_url": "https://device-forum.com/media/3678/",
+      "sha256": "a8a0946ef252173854f056eeb7be5de879a7491516ba8aa8003c7f150c171ffc",
+      "source_url": "https://device-forum.com/media/3678/full",
+      "title": "REDMI NOTE 4X MTK BACK CAM"
+    },
+    "3679": {
+      "downloaded_at": "2026-09-09T05:58:21.045342+00:00",
+      "filename": "3679.jpg",
+      "page_url": "https://device-forum.com/media/3679/",
+      "sha256": "51b2ce1b75a3e4542a865338e2b651b9236a56588ae5a56c8e06638dd90735bf",
+      "source_url": "https://device-forum.com/media/3679/full",
+      "title": "REDMI NOTE 4X MTK CHARGER DATA (2)"
     },
     "368": {
       "downloaded_at": "2026-09-06T13:41:58.589061+00:00",
@@ -20232,6 +21320,86 @@
       "source_url": "https://device-forum.com/media/368/full",
       "title": "iPhone SE CHARGER DATA"
     },
+    "3680": {
+      "downloaded_at": "2026-09-09T05:58:20.426610+00:00",
+      "filename": "3680.jpg",
+      "page_url": "https://device-forum.com/media/3680/",
+      "sha256": "891f1522dc7faf566c267b4a1df438cec6f28ba62fcfbcc9427aac63dfaace38",
+      "source_url": "https://device-forum.com/media/3680/full",
+      "title": "REDMI NOTE 4X MTK CHARGER DATA"
+    },
+    "3681": {
+      "downloaded_at": "2026-09-09T05:58:19.811396+00:00",
+      "filename": "3681.jpg",
+      "page_url": "https://device-forum.com/media/3681/",
+      "sha256": "ea8c55d1a01f8d425845247bf00536e986586be9c843d4fd598081ccb1969678",
+      "source_url": "https://device-forum.com/media/3681/full",
+      "title": "REDMI NOTE 4X MTK COMP NAME (2)"
+    },
+    "3682": {
+      "downloaded_at": "2026-09-09T05:58:19.195388+00:00",
+      "filename": "3682.jpg",
+      "page_url": "https://device-forum.com/media/3682/",
+      "sha256": "e8e39420154a6021de451d852202cfbfabc73219c7cf7d1b8215b523a83b489c",
+      "source_url": "https://device-forum.com/media/3682/full",
+      "title": "REDMI NOTE 4X MTK COMP NAME"
+    },
+    "3683": {
+      "downloaded_at": "2026-09-09T05:58:18.583602+00:00",
+      "filename": "3683.jpg",
+      "page_url": "https://device-forum.com/media/3683/",
+      "sha256": "237f4a8e1e3542ca092e04de319e4c8aa3afb311e21922c9f4c44e43e83dc3aa",
+      "source_url": "https://device-forum.com/media/3683/full",
+      "title": "REDMI NOTE 4X MTK FRONT CAM"
+    },
+    "3684": {
+      "downloaded_at": "2026-09-09T05:58:17.964837+00:00",
+      "filename": "3684.jpg",
+      "page_url": "https://device-forum.com/media/3684/",
+      "sha256": "6e84ac6fc009737c0a9d984babdc162cd65a5fc47b1be76f6268a1edbfaed635",
+      "source_url": "https://device-forum.com/media/3684/full",
+      "title": "REDMI NOTE 4X MTK HANDSFREE"
+    },
+    "3685": {
+      "downloaded_at": "2026-09-09T05:58:17.346171+00:00",
+      "filename": "3685.jpg",
+      "page_url": "https://device-forum.com/media/3685/",
+      "sha256": "a7225efaa10fceb807247497ab0456a236da36475af6157af2da63e534469be9",
+      "source_url": "https://device-forum.com/media/3685/full",
+      "title": "REDMI NOTE 4X MTK IN OUT VOLT"
+    },
+    "3686": {
+      "downloaded_at": "2026-09-09T05:58:16.730929+00:00",
+      "filename": "3686.jpg",
+      "page_url": "https://device-forum.com/media/3686/",
+      "sha256": "e83c79b66f3de67313e2b7d2e056410c99b18a1ad761ee9417acfe04a8a4f534",
+      "source_url": "https://device-forum.com/media/3686/full",
+      "title": "REDMI NOTE 4X MTK LCD LIGHT"
+    },
+    "3687": {
+      "downloaded_at": "2026-09-09T05:58:16.113844+00:00",
+      "filename": "3687.jpg",
+      "page_url": "https://device-forum.com/media/3687/",
+      "sha256": "6e842779333c4cb0911dca64af4bcaf540832dbe613cd1ca50c808563a080223",
+      "source_url": "https://device-forum.com/media/3687/full",
+      "title": "REDMI NOTE 4X MTK LCD"
+    },
+    "3688": {
+      "downloaded_at": "2026-09-09T05:58:15.498552+00:00",
+      "filename": "3688.jpg",
+      "page_url": "https://device-forum.com/media/3688/",
+      "sha256": "baaaf4eb56fcfe2576e9643fe5151694a2671782e1edeaf646b9349e55e40286",
+      "source_url": "https://device-forum.com/media/3688/full",
+      "title": "REDMI NOTE 4X MTK MIC SPK EAR"
+    },
+    "3689": {
+      "downloaded_at": "2026-09-09T05:58:14.885304+00:00",
+      "filename": "3689.jpg",
+      "page_url": "https://device-forum.com/media/3689/",
+      "sha256": "94a9bab23d6f87e4df3c52da999ae843dba0ddb145394c53a37422d69e2fc749",
+      "source_url": "https://device-forum.com/media/3689/full",
+      "title": "REDMI NOTE 4X MTK NETWORK"
+    },
     "369": {
       "downloaded_at": "2026-09-06T13:41:57.981823+00:00",
       "filename": "369.jpg",
@@ -20239,6 +21407,86 @@
       "sha256": "1983fc2772169eff8d95fb39fccb07042c6b0a20758c1e7474b52ebb9a2be60a",
       "source_url": "https://device-forum.com/media/369/full",
       "title": "iPhone SE COMP NAME 2"
+    },
+    "3690": {
+      "downloaded_at": "2026-09-09T05:58:14.267442+00:00",
+      "filename": "3690.jpg",
+      "page_url": "https://device-forum.com/media/3690/",
+      "sha256": "aa3c24546fefb5bbfe34052ffd2f44da5cb77ed31883e210aa9f5a8434040a7b",
+      "source_url": "https://device-forum.com/media/3690/full",
+      "title": "REDMI NOTE 4X MTK ON OFF VOL"
+    },
+    "3691": {
+      "downloaded_at": "2026-09-09T05:58:13.655426+00:00",
+      "filename": "3691.jpg",
+      "page_url": "https://device-forum.com/media/3691/",
+      "sha256": "09868a5bea756358146fa805024b712def5b4d937caae80d637e8324dcc08190",
+      "source_url": "https://device-forum.com/media/3691/full",
+      "title": "REDMI NOTE 4X MTK SIMCARD"
+    },
+    "3692": {
+      "downloaded_at": "2026-09-09T05:58:13.035389+00:00",
+      "filename": "3692.jpg",
+      "page_url": "https://device-forum.com/media/3692/",
+      "sha256": "4e117ce109e3e0cf345e0d4fe694a1d3763bd6229e1f26b22e5515a1a78e5227",
+      "source_url": "https://device-forum.com/media/3692/full",
+      "title": "REDMI NOTE 4X MTK SUB BOARD (ORI)"
+    },
+    "3693": {
+      "downloaded_at": "2026-09-09T05:58:12.368096+00:00",
+      "filename": "3693.jpg",
+      "page_url": "https://device-forum.com/media/3693/",
+      "sha256": "9c1d2db27ebf31383c4f42953f2d7779b23288868d79ccd91d3419277c372727",
+      "source_url": "https://device-forum.com/media/3693/full",
+      "title": "REDMI NOTE 4X MTK SUB BOARD"
+    },
+    "3694": {
+      "downloaded_at": "2026-09-09T05:58:11.756354+00:00",
+      "filename": "3694.jpg",
+      "page_url": "https://device-forum.com/media/3694/",
+      "sha256": "224087d0a3fb2a6de03b8b39328622f7eef592abff8e63d4bc2eccbdb690dd96",
+      "source_url": "https://device-forum.com/media/3694/full",
+      "title": "REDMI NOTE 4X MTK TOUCHSCREEN"
+    },
+    "3695": {
+      "downloaded_at": "2026-09-09T05:58:11.137921+00:00",
+      "filename": "3695.jpg",
+      "page_url": "https://device-forum.com/media/3695/",
+      "sha256": "e96f854c0ed45b129915846537436fe246bb78ec27db58d1d1f9a9f07dc78c6d",
+      "source_url": "https://device-forum.com/media/3695/full",
+      "title": "REDMI NOTE 4X MTK WIFI BT GPS"
+    },
+    "3696": {
+      "downloaded_at": "2026-09-09T05:58:33.409325+00:00",
+      "filename": "3696.jpg",
+      "page_url": "https://device-forum.com/media/3696/",
+      "sha256": "460744bcd0ec09be3d6b2e4f02b8298466aba691268db0846e3d059d729d0572",
+      "source_url": "https://device-forum.com/media/3696/full",
+      "title": "REDMI NOTE 4X QC BACK CAM"
+    },
+    "3697": {
+      "downloaded_at": "2026-09-09T05:58:32.796416+00:00",
+      "filename": "3697.jpg",
+      "page_url": "https://device-forum.com/media/3697/",
+      "sha256": "eb609af940c196b013e45f147f66df893dd2f69c1ddd4a98c215deeb3465c868",
+      "source_url": "https://device-forum.com/media/3697/full",
+      "title": "REDMI NOTE 4X QC CHARGER USB"
+    },
+    "3698": {
+      "downloaded_at": "2026-09-09T05:58:32.177006+00:00",
+      "filename": "3698.jpg",
+      "page_url": "https://device-forum.com/media/3698/",
+      "sha256": "784ec8ffb418204bd2f54c2409a1134cf2b2598f7eaed43560f78325d26fc04b",
+      "source_url": "https://device-forum.com/media/3698/full",
+      "title": "REDMI NOTE 4X QC COMP NAME (2)"
+    },
+    "3699": {
+      "downloaded_at": "2026-09-09T05:58:31.566929+00:00",
+      "filename": "3699.jpg",
+      "page_url": "https://device-forum.com/media/3699/",
+      "sha256": "d134ccde525f1ef1fdbb0a9ee90ac4d4a413835e3d04d5aed377c959f73a69a6",
+      "source_url": "https://device-forum.com/media/3699/full",
+      "title": "REDMI NOTE 4X QC COMP NAME"
     },
     "370": {
       "downloaded_at": "2026-09-06T13:41:57.381154+00:00",
@@ -20248,6 +21496,86 @@
       "source_url": "https://device-forum.com/media/370/full",
       "title": "iPhone SE COMP NAME"
     },
+    "3700": {
+      "downloaded_at": "2026-09-09T05:58:30.952901+00:00",
+      "filename": "3700.jpg",
+      "page_url": "https://device-forum.com/media/3700/",
+      "sha256": "ab1c3532a85bb6db3b08bbe55f8ba717e229121efbba8b51bdf52c159c80ada9",
+      "source_url": "https://device-forum.com/media/3700/full",
+      "title": "REDMI NOTE 4X QC FINGERPRINT"
+    },
+    "3701": {
+      "downloaded_at": "2026-09-09T05:58:30.332709+00:00",
+      "filename": "3701.jpg",
+      "page_url": "https://device-forum.com/media/3701/",
+      "sha256": "8a84e77d30d2c2d7ac515609131667bc805eb86cb2c7245148ed99f8be3c9bf0",
+      "source_url": "https://device-forum.com/media/3701/full",
+      "title": "REDMI NOTE 4X QC FRONT CAM"
+    },
+    "3702": {
+      "downloaded_at": "2026-09-09T05:58:29.719835+00:00",
+      "filename": "3702.jpg",
+      "page_url": "https://device-forum.com/media/3702/",
+      "sha256": "efe1b478b5e25e61fa05ce28663916482502eddae5eb44f7a56ef741ea85a27a",
+      "source_url": "https://device-forum.com/media/3702/full",
+      "title": "REDMI NOTE 4X QC HANDSFREE"
+    },
+    "3703": {
+      "downloaded_at": "2026-09-09T05:58:29.101855+00:00",
+      "filename": "3703.jpg",
+      "page_url": "https://device-forum.com/media/3703/",
+      "sha256": "cc3713a27df6c7c89958575e142253a725680ad328d4b210095199121eb4effc",
+      "source_url": "https://device-forum.com/media/3703/full",
+      "title": "REDMI NOTE 4X QC IN OUT VOLT"
+    },
+    "3704": {
+      "downloaded_at": "2026-09-09T05:58:28.484684+00:00",
+      "filename": "3704.jpg",
+      "page_url": "https://device-forum.com/media/3704/",
+      "sha256": "d678bf4f700049ff20faf3bf25921b76cbb7527074fdc1e1ca26977a799d38c7",
+      "source_url": "https://device-forum.com/media/3704/full",
+      "title": "REDMI NOTE 4X QC LCD LIGHT"
+    },
+    "3705": {
+      "downloaded_at": "2026-09-09T05:58:27.823118+00:00",
+      "filename": "3705.jpg",
+      "page_url": "https://device-forum.com/media/3705/",
+      "sha256": "b20887a0311574e47ae2d6e232d977a3ee0587063734c33c103ec80895fec419",
+      "source_url": "https://device-forum.com/media/3705/full",
+      "title": "REDMI NOTE 4X QC LCD"
+    },
+    "3706": {
+      "downloaded_at": "2026-09-09T05:58:27.201032+00:00",
+      "filename": "3706.jpg",
+      "page_url": "https://device-forum.com/media/3706/",
+      "sha256": "bb5b66816bbb6da1cb437f36af8da21df02bbe8492ad8d2c9db87ff6c9d5dfc0",
+      "source_url": "https://device-forum.com/media/3706/full",
+      "title": "REDMI NOTE 4X QC MIC SPK EAR"
+    },
+    "3707": {
+      "downloaded_at": "2026-09-09T05:58:26.587933+00:00",
+      "filename": "3707.jpg",
+      "page_url": "https://device-forum.com/media/3707/",
+      "sha256": "a3d79238738a78973dca8cecc51a242975ac79ec58bf9f162288ca59335d2313",
+      "source_url": "https://device-forum.com/media/3707/full",
+      "title": "REDMI NOTE 4X QC NETWORK"
+    },
+    "3708": {
+      "downloaded_at": "2026-09-09T05:58:25.969356+00:00",
+      "filename": "3708.jpg",
+      "page_url": "https://device-forum.com/media/3708/",
+      "sha256": "50090ca67466e2c74453eb3d1e063c11bd2f8a3ddddad181a05f15beb7975884",
+      "source_url": "https://device-forum.com/media/3708/full",
+      "title": "REDMI NOTE 4X QC ON OFF VOL"
+    },
+    "3709": {
+      "downloaded_at": "2026-09-09T05:58:25.353639+00:00",
+      "filename": "3709.jpg",
+      "page_url": "https://device-forum.com/media/3709/",
+      "sha256": "677959bc89d75fef686d653f8baa685c0ccaef38da5255fa0d2cc434df65166a",
+      "source_url": "https://device-forum.com/media/3709/full",
+      "title": "REDMI NOTE 4X QC SIM CARD"
+    },
     "371": {
       "downloaded_at": "2026-09-06T13:41:56.786314+00:00",
       "filename": "371.jpg",
@@ -20255,6 +21583,86 @@
       "sha256": "208396fb8b81aefaa03256715d07ec1694c7dbfc18554888608e7a8175b44481",
       "source_url": "https://device-forum.com/media/371/full",
       "title": "iPhone SE FINGERPRINT"
+    },
+    "3710": {
+      "downloaded_at": "2026-09-09T05:58:24.736376+00:00",
+      "filename": "3710.jpg",
+      "page_url": "https://device-forum.com/media/3710/",
+      "sha256": "4da3e3b4b4f52adb92620d25902a5173b99fe4673e6eacf8b1f191479ed0bfc3",
+      "source_url": "https://device-forum.com/media/3710/full",
+      "title": "REDMI NOTE 4X QC SUB BOARD (ORI)"
+    },
+    "3711": {
+      "downloaded_at": "2026-09-09T05:58:24.120479+00:00",
+      "filename": "3711.jpg",
+      "page_url": "https://device-forum.com/media/3711/",
+      "sha256": "5d9d996a11cc3a0489a7945fcc476e751a760e73496fedb2ed0ff1d6564b79bc",
+      "source_url": "https://device-forum.com/media/3711/full",
+      "title": "REDMI NOTE 4X QC SUB BOARD"
+    },
+    "3712": {
+      "downloaded_at": "2026-09-09T05:58:23.505978+00:00",
+      "filename": "3712.jpg",
+      "page_url": "https://device-forum.com/media/3712/",
+      "sha256": "2f45cb47fb647d3d9ddb34f6d05102fbc2d19a5b26b7030f61575f4672f2c058",
+      "source_url": "https://device-forum.com/media/3712/full",
+      "title": "REDMI NOTE 4X QC TOUCH SCREEN"
+    },
+    "3713": {
+      "downloaded_at": "2026-09-09T05:58:22.891775+00:00",
+      "filename": "3713.jpg",
+      "page_url": "https://device-forum.com/media/3713/",
+      "sha256": "8249fbf088f45684196417fcf4185963951c5012a73f275cb583a0e588b91256",
+      "source_url": "https://device-forum.com/media/3713/full",
+      "title": "REDMI NOTE 4X QC UFS EMMC VOLT"
+    },
+    "3714": {
+      "downloaded_at": "2026-09-09T05:58:22.275890+00:00",
+      "filename": "3714.jpg",
+      "page_url": "https://device-forum.com/media/3714/",
+      "sha256": "b9c7b3f5beda6872191eeb2dcf13d70d1358ed14995df22898787041c802ffe3",
+      "source_url": "https://device-forum.com/media/3714/full",
+      "title": "REDMI NOTE 4X QC WIFI BT GPS"
+    },
+    "3715": {
+      "downloaded_at": "2026-09-09T05:58:55.627810+00:00",
+      "filename": "3715.jpg",
+      "page_url": "https://device-forum.com/media/3715/",
+      "sha256": "634ed6c42ca09edd7570fcd5a21af2d9e673a8347b734136674023f91c5a11f9",
+      "source_url": "https://device-forum.com/media/3715/full",
+      "title": "REDMI NOTE 5 PRO BACK CAM A"
+    },
+    "3716": {
+      "downloaded_at": "2026-09-09T05:58:55.011891+00:00",
+      "filename": "3716.jpg",
+      "page_url": "https://device-forum.com/media/3716/",
+      "sha256": "26844470b06580e6a45950e8a9067688e021930e6dbff9b6dfd75e36a9d54525",
+      "source_url": "https://device-forum.com/media/3716/full",
+      "title": "REDMI NOTE 5 PRO BACK CAM B"
+    },
+    "3717": {
+      "downloaded_at": "2026-09-09T05:58:54.391737+00:00",
+      "filename": "3717.jpg",
+      "page_url": "https://device-forum.com/media/3717/",
+      "sha256": "6c6557192e3a16558b24523487cbb423207597e8fbb9f356c00bd75687f87d77",
+      "source_url": "https://device-forum.com/media/3717/full",
+      "title": "REDMI NOTE 5 PRO CHARGER DATA"
+    },
+    "3718": {
+      "downloaded_at": "2026-09-09T05:58:53.778337+00:00",
+      "filename": "3718.jpg",
+      "page_url": "https://device-forum.com/media/3718/",
+      "sha256": "f402da2285ba3984f31ddf8836ba3eec1ee07c74e3a5c559636cda9705423a10",
+      "source_url": "https://device-forum.com/media/3718/full",
+      "title": "REDMI NOTE 5 PRO COMP NAME BOTTOM"
+    },
+    "3719": {
+      "downloaded_at": "2026-09-09T05:58:53.162725+00:00",
+      "filename": "3719.jpg",
+      "page_url": "https://device-forum.com/media/3719/",
+      "sha256": "067a4ca9179856d6bee368afbf530accd7d8e8bac181ba659450143a560847ba",
+      "source_url": "https://device-forum.com/media/3719/full",
+      "title": "REDMI NOTE 5 PRO COMP NAME TOP"
     },
     "372": {
       "downloaded_at": "2026-09-06T13:41:56.180858+00:00",
@@ -20264,6 +21672,86 @@
       "source_url": "https://device-forum.com/media/372/full",
       "title": "iPhone SE FRONT CAM"
     },
+    "3720": {
+      "downloaded_at": "2026-09-09T05:58:52.548989+00:00",
+      "filename": "3720.jpg",
+      "page_url": "https://device-forum.com/media/3720/",
+      "sha256": "8fa1d6ace24fec39ff29c8ab090aec9a1a78a54c6a264b7ac5ea71c66ca81756",
+      "source_url": "https://device-forum.com/media/3720/full",
+      "title": "REDMI NOTE 5 PRO FRONT CAM"
+    },
+    "3721": {
+      "downloaded_at": "2026-09-09T05:58:51.933354+00:00",
+      "filename": "3721.jpg",
+      "page_url": "https://device-forum.com/media/3721/",
+      "sha256": "ea5807835dc4689d0dc1510c6280b6a5a7c74d1ff6b071f27a1ceb2fa93a5e69",
+      "source_url": "https://device-forum.com/media/3721/full",
+      "title": "REDMI NOTE 5 PRO HANDSFREE"
+    },
+    "3722": {
+      "downloaded_at": "2026-09-09T05:58:51.314065+00:00",
+      "filename": "3722.jpg",
+      "page_url": "https://device-forum.com/media/3722/",
+      "sha256": "1fbd62585a7661bfab4616b975bba6927faab387a9da07081826e2c910b5affa",
+      "source_url": "https://device-forum.com/media/3722/full",
+      "title": "REDMI NOTE 5 PRO IN OUT VOLT"
+    },
+    "3723": {
+      "downloaded_at": "2026-09-09T05:58:50.700683+00:00",
+      "filename": "3723.jpg",
+      "page_url": "https://device-forum.com/media/3723/",
+      "sha256": "c378e8dbfae71c2add9064c484c8274c7b522defa5dcbfbecbdfc57d05e15ca1",
+      "source_url": "https://device-forum.com/media/3723/full",
+      "title": "REDMI NOTE 5 PRO LCD LIGHT"
+    },
+    "3724": {
+      "downloaded_at": "2026-09-09T05:58:50.083789+00:00",
+      "filename": "3724.jpg",
+      "page_url": "https://device-forum.com/media/3724/",
+      "sha256": "c83ab44555c56d61befc46ea066d73f4a73ce251b2110c6c9f8c6008a142c218",
+      "source_url": "https://device-forum.com/media/3724/full",
+      "title": "REDMI NOTE 5 PRO LCD"
+    },
+    "3725": {
+      "downloaded_at": "2026-09-09T05:58:49.466613+00:00",
+      "filename": "3725.jpg",
+      "page_url": "https://device-forum.com/media/3725/",
+      "sha256": "75aaa3f3ef938aff460b42d476295af401b0c34e98782888a3aafc08600fc2a8",
+      "source_url": "https://device-forum.com/media/3725/full",
+      "title": "REDMI NOTE 5 PRO MIC SPK EAR"
+    },
+    "3726": {
+      "downloaded_at": "2026-09-09T05:58:48.854082+00:00",
+      "filename": "3726.jpg",
+      "page_url": "https://device-forum.com/media/3726/",
+      "sha256": "d285b30164adc678f5bd26e5325a680539a5f974e2b1bc6077d3083a184e6a41",
+      "source_url": "https://device-forum.com/media/3726/full",
+      "title": "REDMI NOTE 5 PRO NETWORK"
+    },
+    "3727": {
+      "downloaded_at": "2026-09-09T05:58:48.235200+00:00",
+      "filename": "3727.jpg",
+      "page_url": "https://device-forum.com/media/3727/",
+      "sha256": "c9490864f47fae848981f9b1c92af5cafb5d1a3a275b935cc59cf20330de4034",
+      "source_url": "https://device-forum.com/media/3727/full",
+      "title": "REDMI NOTE 5 PRO ON OFF VOL"
+    },
+    "3728": {
+      "downloaded_at": "2026-09-09T05:58:47.623761+00:00",
+      "filename": "3728.jpg",
+      "page_url": "https://device-forum.com/media/3728/",
+      "sha256": "d990f036f130cacbc248695966b110f3ed65b61349499c483afb9e1b08467bbd",
+      "source_url": "https://device-forum.com/media/3728/full",
+      "title": "REDMI NOTE 5 PRO SIMCARD"
+    },
+    "3729": {
+      "downloaded_at": "2026-09-09T05:58:47.006965+00:00",
+      "filename": "3729.jpg",
+      "page_url": "https://device-forum.com/media/3729/",
+      "sha256": "c5ac98b4091c3327f6cfc946b250ffaadcd2f118e4b7e3ed1980418209bb2315",
+      "source_url": "https://device-forum.com/media/3729/full",
+      "title": "REDMI NOTE 5 PRO SUB BOARD (ORI)"
+    },
     "373": {
       "downloaded_at": "2026-09-06T13:41:55.576549+00:00",
       "filename": "373.jpg",
@@ -20271,6 +21759,86 @@
       "sha256": "7d208fc7f00587f39b1df92c0ec327fc6c83cfeb5294f2cfa6807523a9012a7e",
       "source_url": "https://device-forum.com/media/373/full",
       "title": "iPhone SE HANDSFREE"
+    },
+    "3730": {
+      "downloaded_at": "2026-09-09T05:58:46.389739+00:00",
+      "filename": "3730.jpg",
+      "page_url": "https://device-forum.com/media/3730/",
+      "sha256": "bc04ea6236f1bafb3cfe932d73fa298b13b1948bfea9554445ef199a87eda734",
+      "source_url": "https://device-forum.com/media/3730/full",
+      "title": "REDMI NOTE 5 PRO SUB BOARD"
+    },
+    "3731": {
+      "downloaded_at": "2026-09-09T05:58:45.776578+00:00",
+      "filename": "3731.jpg",
+      "page_url": "https://device-forum.com/media/3731/",
+      "sha256": "427b1305d3cd600673d8a4720007d02420511ec096393947a125c4e0775a289a",
+      "source_url": "https://device-forum.com/media/3731/full",
+      "title": "REDMI NOTE 5 PRO TOUCHSCREEN"
+    },
+    "3732": {
+      "downloaded_at": "2026-09-09T05:58:45.156605+00:00",
+      "filename": "3732.jpg",
+      "page_url": "https://device-forum.com/media/3732/",
+      "sha256": "26a3af91beaee7c27ee9a3ad7f0e85c47fad1365976b2b19a9f2b86d73096af0",
+      "source_url": "https://device-forum.com/media/3732/full",
+      "title": "REDMI NOTE 5 PRO WIFI BT GPS"
+    },
+    "3733": {
+      "downloaded_at": "2026-09-09T05:58:44.543209+00:00",
+      "filename": "3733.jpg",
+      "page_url": "https://device-forum.com/media/3733/",
+      "sha256": "076c7b25a39b215bb896f17353b390ebe840da1cb6f19585c9bd5d95a3b56d4c",
+      "source_url": "https://device-forum.com/media/3733/full",
+      "title": "REDMI NOTE 5W BACK CAM A"
+    },
+    "3734": {
+      "downloaded_at": "2026-09-09T05:58:43.926032+00:00",
+      "filename": "3734.jpg",
+      "page_url": "https://device-forum.com/media/3734/",
+      "sha256": "84e5ed1f7f5f5b6f4f7bf1795c7eae44188bc85cd30b642dc7d0bfb0772a8316",
+      "source_url": "https://device-forum.com/media/3734/full",
+      "title": "REDMI NOTE 5W BACK CAM B"
+    },
+    "3735": {
+      "downloaded_at": "2026-09-09T05:58:43.259849+00:00",
+      "filename": "3735.jpg",
+      "page_url": "https://device-forum.com/media/3735/",
+      "sha256": "88ea7a5cb46ca90f1d8296f96f347abd4625ad03bdfb459bcf88b83dfc73b9e5",
+      "source_url": "https://device-forum.com/media/3735/full",
+      "title": "REDMI NOTE 5W CHARGER DATA"
+    },
+    "3736": {
+      "downloaded_at": "2026-09-09T05:58:42.646675+00:00",
+      "filename": "3736.jpg",
+      "page_url": "https://device-forum.com/media/3736/",
+      "sha256": "c1c6c0830404a465530f4130b31e7fdf41615df2d57bdc72d3b8f3a03a62b007",
+      "source_url": "https://device-forum.com/media/3736/full",
+      "title": "REDMI NOTE 5W COMP NAME (2)"
+    },
+    "3737": {
+      "downloaded_at": "2026-09-09T05:58:42.028576+00:00",
+      "filename": "3737.jpg",
+      "page_url": "https://device-forum.com/media/3737/",
+      "sha256": "675f7f1f6e1d2d6cb435f21345cb8067b29755e0b8a2cc8a5fcb60b4a4e9b891",
+      "source_url": "https://device-forum.com/media/3737/full",
+      "title": "REDMI NOTE 5W COMP NAME"
+    },
+    "3738": {
+      "downloaded_at": "2026-09-09T05:58:41.414011+00:00",
+      "filename": "3738.jpg",
+      "page_url": "https://device-forum.com/media/3738/",
+      "sha256": "fdd1aa150793400f0ec034e2c873fc2777f3671020527138dac37edfade4cbfa",
+      "source_url": "https://device-forum.com/media/3738/full",
+      "title": "REDMI NOTE 5W FRONT CAM"
+    },
+    "3739": {
+      "downloaded_at": "2026-09-09T05:58:40.798540+00:00",
+      "filename": "3739.jpg",
+      "page_url": "https://device-forum.com/media/3739/",
+      "sha256": "5c32c4aed59ce36be5980248efb567863b3bb50db3ada13ec9bb358012359a82",
+      "source_url": "https://device-forum.com/media/3739/full",
+      "title": "REDMI NOTE 5W HANDSFREE"
     },
     "374": {
       "downloaded_at": "2026-09-06T13:41:54.972829+00:00",
@@ -20280,6 +21848,86 @@
       "source_url": "https://device-forum.com/media/374/full",
       "title": "iPhone SE IN OUT VOLT"
     },
+    "3740": {
+      "downloaded_at": "2026-09-09T05:58:40.183050+00:00",
+      "filename": "3740.jpg",
+      "page_url": "https://device-forum.com/media/3740/",
+      "sha256": "43ea0c0070da2754aefbf90854b3d7bdf1c41a86a3f27727d96a221eaf95a24c",
+      "source_url": "https://device-forum.com/media/3740/full",
+      "title": "REDMI NOTE 5W IN OUT VOLT"
+    },
+    "3741": {
+      "downloaded_at": "2026-09-09T05:58:39.569338+00:00",
+      "filename": "3741.jpg",
+      "page_url": "https://device-forum.com/media/3741/",
+      "sha256": "6f1e6c5be3a1270695746c9cfcbff7c168ccc94e449a37f42896b44dc238f773",
+      "source_url": "https://device-forum.com/media/3741/full",
+      "title": "REDMI NOTE 5W LCD LIGHT"
+    },
+    "3742": {
+      "downloaded_at": "2026-09-09T05:58:38.950792+00:00",
+      "filename": "3742.jpg",
+      "page_url": "https://device-forum.com/media/3742/",
+      "sha256": "04fa673e74078c5bfc9b9a044623d63cf373587d28a77d63e3096f7dc6606609",
+      "source_url": "https://device-forum.com/media/3742/full",
+      "title": "REDMI NOTE 5W LCD"
+    },
+    "3743": {
+      "downloaded_at": "2026-09-09T05:58:38.331647+00:00",
+      "filename": "3743.jpg",
+      "page_url": "https://device-forum.com/media/3743/",
+      "sha256": "790ce02ab85317f9db9df153fadf1c5e84b1f846031850e0b9ba4d8f93207cd4",
+      "source_url": "https://device-forum.com/media/3743/full",
+      "title": "REDMI NOTE 5W MIC SPK EAR"
+    },
+    "3744": {
+      "downloaded_at": "2026-09-09T05:58:37.717569+00:00",
+      "filename": "3744.jpg",
+      "page_url": "https://device-forum.com/media/3744/",
+      "sha256": "4c1bed9997f9d9e287a48a811b7b8b11dc3e616d3295a328bc33422fa17ae1c5",
+      "source_url": "https://device-forum.com/media/3744/full",
+      "title": "REDMI NOTE 5W NETWORK"
+    },
+    "3745": {
+      "downloaded_at": "2026-09-09T05:58:37.101850+00:00",
+      "filename": "3745.jpg",
+      "page_url": "https://device-forum.com/media/3745/",
+      "sha256": "78c2ae60c875b2bf0090c5342c2b810d8511ff0a71096ce324397ade42580823",
+      "source_url": "https://device-forum.com/media/3745/full",
+      "title": "REDMI NOTE 5W ON OFF VOL"
+    },
+    "3746": {
+      "downloaded_at": "2026-09-09T05:58:36.485268+00:00",
+      "filename": "3746.jpg",
+      "page_url": "https://device-forum.com/media/3746/",
+      "sha256": "5299d7b1949ca1ece554067e679a22666118d81d411c528e52d2eff86cb24cd2",
+      "source_url": "https://device-forum.com/media/3746/full",
+      "title": "REDMI NOTE 5W SIMCARD"
+    },
+    "3747": {
+      "downloaded_at": "2026-09-09T05:58:35.873823+00:00",
+      "filename": "3747.jpg",
+      "page_url": "https://device-forum.com/media/3747/",
+      "sha256": "f1f994b6041b1fd5af0e4fcafa5db3067f05d6d2f293343d8e24ba3edd7874ee",
+      "source_url": "https://device-forum.com/media/3747/full",
+      "title": "REDMI NOTE 5W SUB BOARD (ORI)"
+    },
+    "3748": {
+      "downloaded_at": "2026-09-09T05:58:35.256393+00:00",
+      "filename": "3748.jpg",
+      "page_url": "https://device-forum.com/media/3748/",
+      "sha256": "65498aee32b1e9ee6ef6c5257218f333628fe8dedff9c68c1e25fa170cb36013",
+      "source_url": "https://device-forum.com/media/3748/full",
+      "title": "REDMI NOTE 5W SUB BOARD"
+    },
+    "3749": {
+      "downloaded_at": "2026-09-09T05:58:34.644908+00:00",
+      "filename": "3749.jpg",
+      "page_url": "https://device-forum.com/media/3749/",
+      "sha256": "769559fc4752fed8cd294bb72bbecd53524591787be080b2183029e0778d4417",
+      "source_url": "https://device-forum.com/media/3749/full",
+      "title": "REDMI NOTE 5W TOUCH SCREEN"
+    },
     "375": {
       "downloaded_at": "2026-09-06T13:41:54.364371+00:00",
       "filename": "375.jpg",
@@ -20287,6 +21935,86 @@
       "sha256": "04bc0392877702aebd2e3d30d1710e6e5a0d541d54943fb7e49e238ff8b89f93",
       "source_url": "https://device-forum.com/media/375/full",
       "title": "iPhone SE LCD LIGHT"
+    },
+    "3750": {
+      "downloaded_at": "2026-09-09T05:58:34.029472+00:00",
+      "filename": "3750.jpg",
+      "page_url": "https://device-forum.com/media/3750/",
+      "sha256": "0ba3833dbb3519183b587443f277af28c8bde30f1987aa2d24f37e79ab26b80c",
+      "source_url": "https://device-forum.com/media/3750/full",
+      "title": "REDMI NOTE 5W WIFI BT GPS"
+    },
+    "3751": {
+      "downloaded_at": "2026-09-09T05:59:07.366726+00:00",
+      "filename": "3751.jpg",
+      "page_url": "https://device-forum.com/media/3751/",
+      "sha256": "dee1cad9216046d1056c988e0922716df2a13174c119926d5aa1b688dce4850c",
+      "source_url": "https://device-forum.com/media/3751/full",
+      "title": "REDMI NOTE 5A BACK CAM"
+    },
+    "3752": {
+      "downloaded_at": "2026-09-09T05:59:06.756625+00:00",
+      "filename": "3752.jpg",
+      "page_url": "https://device-forum.com/media/3752/",
+      "sha256": "f50f97c8d7e2f0ab885feca9ae3ee413b78b9c2d6b60be2322b6fe63d155b0a6",
+      "source_url": "https://device-forum.com/media/3752/full",
+      "title": "REDMI NOTE 5A CHARGER DATA"
+    },
+    "3753": {
+      "downloaded_at": "2026-09-09T05:59:06.137735+00:00",
+      "filename": "3753.jpg",
+      "page_url": "https://device-forum.com/media/3753/",
+      "sha256": "44d0d7e31175a3d96d9540b20ce44c8a8ed64cf63da3f7998d0dd32b3289c140",
+      "source_url": "https://device-forum.com/media/3753/full",
+      "title": "REDMI NOTE 5A COMP NAME (2)"
+    },
+    "3754": {
+      "downloaded_at": "2026-09-09T05:59:05.526591+00:00",
+      "filename": "3754.jpg",
+      "page_url": "https://device-forum.com/media/3754/",
+      "sha256": "de270167736fceb0e331655435150432723515656089e3082dc6781fb2730d7d",
+      "source_url": "https://device-forum.com/media/3754/full",
+      "title": "REDMI NOTE 5A COMP NAME"
+    },
+    "3755": {
+      "downloaded_at": "2026-09-09T05:59:04.911554+00:00",
+      "filename": "3755.jpg",
+      "page_url": "https://device-forum.com/media/3755/",
+      "sha256": "ec7edddc58fc80ec0ec970215b3e5c38ac23f91529d905d4b9efe61c940d0807",
+      "source_url": "https://device-forum.com/media/3755/full",
+      "title": "REDMI NOTE 5A FRONT CAM"
+    },
+    "3756": {
+      "downloaded_at": "2026-09-09T05:59:04.294984+00:00",
+      "filename": "3756.jpg",
+      "page_url": "https://device-forum.com/media/3756/",
+      "sha256": "191985711f1ff02aff0dcd0b6c8c7414c27caad351bdcd716f10a7779c0c43da",
+      "source_url": "https://device-forum.com/media/3756/full",
+      "title": "REDMI NOTE 5A HANDSFREE"
+    },
+    "3757": {
+      "downloaded_at": "2026-09-09T05:59:03.682892+00:00",
+      "filename": "3757.jpg",
+      "page_url": "https://device-forum.com/media/3757/",
+      "sha256": "8f0fdd95c5a292f4bf859d0045f06bee2b8214a580cf5da98f2e2fd8dde3c9e9",
+      "source_url": "https://device-forum.com/media/3757/full",
+      "title": "REDMI NOTE 5A IN OUT VOLT"
+    },
+    "3758": {
+      "downloaded_at": "2026-09-09T05:59:03.060719+00:00",
+      "filename": "3758.jpg",
+      "page_url": "https://device-forum.com/media/3758/",
+      "sha256": "3f077d44d806fc7ba0280eddeebf5885b12c462946b3f0c602da776b396bf0ab",
+      "source_url": "https://device-forum.com/media/3758/full",
+      "title": "REDMI NOTE 5A LCD LIGHT"
+    },
+    "3759": {
+      "downloaded_at": "2026-09-09T05:59:02.444303+00:00",
+      "filename": "3759.jpg",
+      "page_url": "https://device-forum.com/media/3759/",
+      "sha256": "f24b44cdc65943a2bb7075affeb2d44251c0cb6b5d2ebf806fa787197dd60bc9",
+      "source_url": "https://device-forum.com/media/3759/full",
+      "title": "REDMI NOTE 5A LCD"
     },
     "376": {
       "downloaded_at": "2026-09-06T13:41:53.761826+00:00",
@@ -20296,6 +22024,86 @@
       "source_url": "https://device-forum.com/media/376/full",
       "title": "iPhone SE LCD"
     },
+    "3760": {
+      "downloaded_at": "2026-09-09T05:59:01.830399+00:00",
+      "filename": "3760.jpg",
+      "page_url": "https://device-forum.com/media/3760/",
+      "sha256": "9287f058135221737bb807bd139b4b70e36229ee20097c82b9d097c53267b6ea",
+      "source_url": "https://device-forum.com/media/3760/full",
+      "title": "REDMI NOTE 5A MIC SPK EAR"
+    },
+    "3761": {
+      "downloaded_at": "2026-09-09T05:59:01.215227+00:00",
+      "filename": "3761.jpg",
+      "page_url": "https://device-forum.com/media/3761/",
+      "sha256": "0fb90eb80dc02384704105a492e184aaadcdda30de6f736b820a2190e83d85be",
+      "source_url": "https://device-forum.com/media/3761/full",
+      "title": "REDMI NOTE 5A NETWORK"
+    },
+    "3762": {
+      "downloaded_at": "2026-09-09T05:59:00.601607+00:00",
+      "filename": "3762.jpg",
+      "page_url": "https://device-forum.com/media/3762/",
+      "sha256": "2fef319132b61c2d1a1ee8f023b8053290807d2d74edc0cb57a81dd99e5d62a2",
+      "source_url": "https://device-forum.com/media/3762/full",
+      "title": "REDMI NOTE 5A ON OFF VOL"
+    },
+    "3763": {
+      "downloaded_at": "2026-09-09T05:58:59.983365+00:00",
+      "filename": "3763.jpg",
+      "page_url": "https://device-forum.com/media/3763/",
+      "sha256": "423c85d2b89e627968742f689a5e19b87c40c5cfa85968b73cdfb9723daff964",
+      "source_url": "https://device-forum.com/media/3763/full",
+      "title": "REDMI NOTE 5A RESISTANCE VALUE ON PAD"
+    },
+    "3764": {
+      "downloaded_at": "2026-09-09T05:58:59.365618+00:00",
+      "filename": "3764.jpg",
+      "page_url": "https://device-forum.com/media/3764/",
+      "sha256": "549a8f9332dbcc08ffb7cbecd0347ca300a1c83e98c82f144105b12e36dfef91",
+      "source_url": "https://device-forum.com/media/3764/full",
+      "title": "REDMI NOTE 5A SIMCARD"
+    },
+    "3765": {
+      "downloaded_at": "2026-09-09T05:58:58.703541+00:00",
+      "filename": "3765.jpg",
+      "page_url": "https://device-forum.com/media/3765/",
+      "sha256": "03f012e8e5e70f8dd80e85aee46785008b85fc8343c1b47b30b8f966e4bfcfcc",
+      "source_url": "https://device-forum.com/media/3765/full",
+      "title": "REDMI NOTE 5A SUB BOARD (ORI)"
+    },
+    "3766": {
+      "downloaded_at": "2026-09-09T05:58:58.088613+00:00",
+      "filename": "3766.jpg",
+      "page_url": "https://device-forum.com/media/3766/",
+      "sha256": "ba2c2f9ae455c9b14ce6509edfcbc2cc836dcc91f7e7744306ba03f78679091c",
+      "source_url": "https://device-forum.com/media/3766/full",
+      "title": "REDMI NOTE 5A SUB BOARD"
+    },
+    "3767": {
+      "downloaded_at": "2026-09-09T05:58:57.470094+00:00",
+      "filename": "3767.jpg",
+      "page_url": "https://device-forum.com/media/3767/",
+      "sha256": "7a76327372344d8d7ca5df4b06738cd39d5e4e8e1f619d115836f175c0ea6125",
+      "source_url": "https://device-forum.com/media/3767/full",
+      "title": "REDMI NOTE 5A TOUCHSCREEN"
+    },
+    "3768": {
+      "downloaded_at": "2026-09-09T05:58:56.858245+00:00",
+      "filename": "3768.jpg",
+      "page_url": "https://device-forum.com/media/3768/",
+      "sha256": "d7e08ef5b98daeceb7714178091df4622ae7d5fccf30e01315d1ed0d7b58056f",
+      "source_url": "https://device-forum.com/media/3768/full",
+      "title": "REDMI NOTE 5A UFS EMMC VOLT"
+    },
+    "3769": {
+      "downloaded_at": "2026-09-09T05:58:56.240346+00:00",
+      "filename": "3769.jpg",
+      "page_url": "https://device-forum.com/media/3769/",
+      "sha256": "9d0e6f403549fedc440908afe4d2da4837d7a9907ca82bbeb7be9041c822bc6d",
+      "source_url": "https://device-forum.com/media/3769/full",
+      "title": "REDMI NOTE 5A WIFI BT GPS"
+    },
     "377": {
       "downloaded_at": "2026-09-06T13:41:53.161772+00:00",
       "filename": "377.jpg",
@@ -20304,6 +22112,86 @@
       "source_url": "https://device-forum.com/media/377/full",
       "title": "iPhone SE MIC SPK EAR 2"
     },
+    "3770": {
+      "downloaded_at": "2026-09-09T05:59:20.048012+00:00",
+      "filename": "3770.jpg",
+      "page_url": "https://device-forum.com/media/3770/",
+      "sha256": "93ce51a5153e38a7297947186391f8d9e7631ccbde73e04b653f074ee7a1a913",
+      "source_url": "https://device-forum.com/media/3770/full",
+      "title": "REDMI NOTE 6 PRO BACK CAM A"
+    },
+    "3771": {
+      "downloaded_at": "2026-09-09T05:59:17.275827+00:00",
+      "filename": "3771.jpg",
+      "page_url": "https://device-forum.com/media/3771/",
+      "sha256": "17174d8a40ad1ee66d4898bb826df842a305563587a8ad9cda33e27285bce408",
+      "source_url": "https://device-forum.com/media/3771/full",
+      "title": "REDMI NOTE 6 PRO BACK CAM B"
+    },
+    "3772": {
+      "downloaded_at": "2026-09-09T05:59:16.662224+00:00",
+      "filename": "3772.jpg",
+      "page_url": "https://device-forum.com/media/3772/",
+      "sha256": "36fe6e83a81ea11a6f671e71c40d6b6c4c6e9ac4cd29c2f93f89b52bbfd6120e",
+      "source_url": "https://device-forum.com/media/3772/full",
+      "title": "REDMI NOTE 6 PRO CHARGER DATA"
+    },
+    "3773": {
+      "downloaded_at": "2026-09-09T05:59:16.047412+00:00",
+      "filename": "3773.jpg",
+      "page_url": "https://device-forum.com/media/3773/",
+      "sha256": "df9f9d3fe1ae4d5cbfa6633482d3a0847498ffc6639c20f1f0b7981671cac613",
+      "source_url": "https://device-forum.com/media/3773/full",
+      "title": "REDMI NOTE 6 PRO FRONT CAM A"
+    },
+    "3774": {
+      "downloaded_at": "2026-09-09T05:59:15.428011+00:00",
+      "filename": "3774.jpg",
+      "page_url": "https://device-forum.com/media/3774/",
+      "sha256": "b851bbdefae12795ccdebec2eeaf820bdd906bdd31972c52dd635e9af6a7b08f",
+      "source_url": "https://device-forum.com/media/3774/full",
+      "title": "REDMI NOTE 6 PRO FRONT CAM B"
+    },
+    "3775": {
+      "downloaded_at": "2026-09-09T05:59:14.809346+00:00",
+      "filename": "3775.jpg",
+      "page_url": "https://device-forum.com/media/3775/",
+      "sha256": "aaa6f7c370c5a6cd141fa0f2d126cfc22147e36222b01761c8d5d2f0fa72590e",
+      "source_url": "https://device-forum.com/media/3775/full",
+      "title": "REDMI NOTE 6 PRO HANDSFREE"
+    },
+    "3776": {
+      "downloaded_at": "2026-09-09T05:59:14.142486+00:00",
+      "filename": "3776.jpg",
+      "page_url": "https://device-forum.com/media/3776/",
+      "sha256": "3dd3baca4a9a73e419a3299cbcf3d8fe7949f250662754cc8dac01b369342938",
+      "source_url": "https://device-forum.com/media/3776/full",
+      "title": "REDMI NOTE 6 PRO IN OUT VOLT"
+    },
+    "3777": {
+      "downloaded_at": "2026-09-09T05:59:13.528574+00:00",
+      "filename": "3777.jpg",
+      "page_url": "https://device-forum.com/media/3777/",
+      "sha256": "8e2a8365b46dbc9b85c53119314acda6c50efd3d3654c0351dea3061b638a9df",
+      "source_url": "https://device-forum.com/media/3777/full",
+      "title": "REDMI NOTE 6 PRO LCD LIGHT"
+    },
+    "3778": {
+      "downloaded_at": "2026-09-09T05:59:12.912727+00:00",
+      "filename": "3778.jpg",
+      "page_url": "https://device-forum.com/media/3778/",
+      "sha256": "8b88329b6cf4dd132d342750be01bdde67d7b71b94a652228f7b3c2a9387b5e1",
+      "source_url": "https://device-forum.com/media/3778/full",
+      "title": "REDMI NOTE 6 PRO LCD"
+    },
+    "3779": {
+      "downloaded_at": "2026-09-09T05:59:12.292036+00:00",
+      "filename": "3779.jpg",
+      "page_url": "https://device-forum.com/media/3779/",
+      "sha256": "117883cbd69011da395749de03329c94d9f6deb25d7a1907eb2bf0e76ca29a8b",
+      "source_url": "https://device-forum.com/media/3779/full",
+      "title": "REDMI NOTE 6 PRO MIC SPK EAR"
+    },
     "378": {
       "downloaded_at": "2026-09-06T13:41:52.565437+00:00",
       "filename": "378.jpg",
@@ -20311,6 +22199,62 @@
       "sha256": "9434d2d07472e0a8598dde1abbbf0d764b2a89fa516a7412f08fba17413556fe",
       "source_url": "https://device-forum.com/media/378/full",
       "title": "iPhone SE MIC SPK EAR 3"
+    },
+    "3780": {
+      "downloaded_at": "2026-09-09T05:59:11.679475+00:00",
+      "filename": "3780.jpg",
+      "page_url": "https://device-forum.com/media/3780/",
+      "sha256": "a94307145703b2df2216b1379125e3ef6c64c1dbc746ff5bfe20b523c14a53c5",
+      "source_url": "https://device-forum.com/media/3780/full",
+      "title": "REDMI NOTE 6 PRO NETWORK"
+    },
+    "3781": {
+      "downloaded_at": "2026-09-09T05:59:11.060394+00:00",
+      "filename": "3781.jpg",
+      "page_url": "https://device-forum.com/media/3781/",
+      "sha256": "d35825b08a14ec8c9d651a02a541e896efc914f80b2fb510e373179c629afcd6",
+      "source_url": "https://device-forum.com/media/3781/full",
+      "title": "REDMI NOTE 6 PRO ON OFF VOL"
+    },
+    "3782": {
+      "downloaded_at": "2026-09-09T05:59:10.443926+00:00",
+      "filename": "3782.jpg",
+      "page_url": "https://device-forum.com/media/3782/",
+      "sha256": "e0c85b0d35e1c44825be8486fc19633e33fabb631c70223dbdb2ea29b4b43c88",
+      "source_url": "https://device-forum.com/media/3782/full",
+      "title": "REDMI NOTE 6 PRO SIM CARD"
+    },
+    "3783": {
+      "downloaded_at": "2026-09-09T05:59:09.831240+00:00",
+      "filename": "3783.jpg",
+      "page_url": "https://device-forum.com/media/3783/",
+      "sha256": "54e2d492471ffec8ae3c80c8623f5946531707731fbf1d958b54e84a026f661d",
+      "source_url": "https://device-forum.com/media/3783/full",
+      "title": "REDMI NOTE 6 PRO SUB BOARD (ORI)"
+    },
+    "3784": {
+      "downloaded_at": "2026-09-09T05:59:09.212694+00:00",
+      "filename": "3784.jpg",
+      "page_url": "https://device-forum.com/media/3784/",
+      "sha256": "359b020ad627ff0669467e1aae09cfb5d1ce4b0702e93951adc6f4d008fbf81d",
+      "source_url": "https://device-forum.com/media/3784/full",
+      "title": "REDMI NOTE 6 PRO SUB BOARD"
+    },
+    "3785": {
+      "downloaded_at": "2026-09-09T05:59:08.600050+00:00",
+      "filename": "3785.jpg",
+      "page_url": "https://device-forum.com/media/3785/",
+      "sha256": "54ac79cc5b0ce19c908def428a250743668718848d051b05ccd3a7e346776546",
+      "source_url": "https://device-forum.com/media/3785/full",
+      "title": "REDMI NOTE 6 PRO TOUCH SCREEN"
+    },
+    "3786": {
+      "downloaded_at": "2026-09-09T05:59:07.982997+00:00",
+      "filename": "3786.jpg",
+      "page_url": "https://device-forum.com/media/3786/",
+      "sha256": "dd8168698c0d04f4cf464c4af3e764cb453dcc0cad123dd72fbcf81bb5e5b51b",
+      "source_url": "https://device-forum.com/media/3786/full",
+      "title": "REDMI NOTE 6 PRO WIFI BT GPS"
     },
     "379": {
       "downloaded_at": "2026-09-06T13:41:51.966982+00:00",
@@ -20328,6 +22272,14 @@
       "source_url": "https://device-forum.com/media/380/full",
       "title": "iPhone SE NETWORK 2"
     },
+    "3809": {
+      "downloaded_at": "2026-09-09T05:59:32.047548+00:00",
+      "filename": "3809.jpg",
+      "page_url": "https://device-forum.com/media/3809/",
+      "sha256": "e45d0c80a5364395c56818e977e5c1e1c22bfe7357ed266aac26297f012cdbd9",
+      "source_url": "https://device-forum.com/media/3809/full",
+      "title": "REDMI NOTE 7 PRO COMP NAME (2)"
+    },
     "381": {
       "downloaded_at": "2026-09-06T13:41:50.752496+00:00",
       "filename": "381.jpg",
@@ -20336,6 +22288,86 @@
       "source_url": "https://device-forum.com/media/381/full",
       "title": "iPhone SE NETWORK"
     },
+    "3810": {
+      "downloaded_at": "2026-09-09T05:59:31.434610+00:00",
+      "filename": "3810.jpg",
+      "page_url": "https://device-forum.com/media/3810/",
+      "sha256": "b5509257fe49b6d7bf472a8792979b67e6a3d89c836327bd0cf79021c8e71d1a",
+      "source_url": "https://device-forum.com/media/3810/full",
+      "title": "REDMI NOTE 7 PRO COMP NAME"
+    },
+    "3811": {
+      "downloaded_at": "2026-09-09T05:59:30.824480+00:00",
+      "filename": "3811.jpg",
+      "page_url": "https://device-forum.com/media/3811/",
+      "sha256": "cd1ac66ed2e78829a7cb218f7b630b08f0666bd6117e57de9d11974777a73454",
+      "source_url": "https://device-forum.com/media/3811/full",
+      "title": "REDMI NOTE 7 PRO CPU VOLT"
+    },
+    "3812": {
+      "downloaded_at": "2026-09-09T05:59:30.203299+00:00",
+      "filename": "3812.jpg",
+      "page_url": "https://device-forum.com/media/3812/",
+      "sha256": "34064cbaee100df442d2fcf66b1f9ef06ab54aa028d48c44d25343d4f630f3d3",
+      "source_url": "https://device-forum.com/media/3812/full",
+      "title": "REDMI NOTE 7 PRO FINGERPRINT"
+    },
+    "3813": {
+      "downloaded_at": "2026-09-09T05:59:29.592994+00:00",
+      "filename": "3813.jpg",
+      "page_url": "https://device-forum.com/media/3813/",
+      "sha256": "d90fa1762944c37c6f1db997b33c4df6b22620dc249fa38a5ee73df81a6da55c",
+      "source_url": "https://device-forum.com/media/3813/full",
+      "title": "REDMI NOTE 7 PRO FRONT CAM"
+    },
+    "3814": {
+      "downloaded_at": "2026-09-09T05:59:28.978274+00:00",
+      "filename": "3814.jpg",
+      "page_url": "https://device-forum.com/media/3814/",
+      "sha256": "56ac40368c18f259fb3ffd879c2a105f76a9e309f7bc8ad23f5ab0b6194de197",
+      "source_url": "https://device-forum.com/media/3814/full",
+      "title": "REDMI NOTE 7 PRO HANDSFREE"
+    },
+    "3815": {
+      "downloaded_at": "2026-09-09T05:59:28.365958+00:00",
+      "filename": "3815.jpg",
+      "page_url": "https://device-forum.com/media/3815/",
+      "sha256": "c3039c0e582e891e4d540912149bfc6d43b71ba4826b237c7d5421b764a5150f",
+      "source_url": "https://device-forum.com/media/3815/full",
+      "title": "REDMI NOTE 7 PRO IN OUT VOLT"
+    },
+    "3816": {
+      "downloaded_at": "2026-09-09T05:59:27.751989+00:00",
+      "filename": "3816.jpg",
+      "page_url": "https://device-forum.com/media/3816/",
+      "sha256": "484045f5a93b5ec478b93c18a1ee8276e38c2692418d837ce13c6d429e81f26e",
+      "source_url": "https://device-forum.com/media/3816/full",
+      "title": "REDMI NOTE 7 PRO LCD LIGHT"
+    },
+    "3817": {
+      "downloaded_at": "2026-09-09T05:59:27.132584+00:00",
+      "filename": "3817.jpg",
+      "page_url": "https://device-forum.com/media/3817/",
+      "sha256": "8ec6039445e1912a18f35a5a281974f3f4bf35d775c3219b0324e1363bc9debe",
+      "source_url": "https://device-forum.com/media/3817/full",
+      "title": "REDMI NOTE 7 PRO LCD"
+    },
+    "3818": {
+      "downloaded_at": "2026-09-09T05:59:26.516805+00:00",
+      "filename": "3818.jpg",
+      "page_url": "https://device-forum.com/media/3818/",
+      "sha256": "6d9432100da0db847ea78bf7d76fc1a77d0ed248a6bce53a2f34a0a79c07289f",
+      "source_url": "https://device-forum.com/media/3818/full",
+      "title": "REDMI NOTE 7 PRO MIC SPK EAR"
+    },
+    "3819": {
+      "downloaded_at": "2026-09-09T05:59:25.904364+00:00",
+      "filename": "3819.jpg",
+      "page_url": "https://device-forum.com/media/3819/",
+      "sha256": "c1a4173c3621ac4fdb9d6840bcfa38e873d42825af9ba72767f745b4c40bd659",
+      "source_url": "https://device-forum.com/media/3819/full",
+      "title": "REDMI NOTE 7 PRO NETWORK"
+    },
     "382": {
       "downloaded_at": "2026-09-06T13:41:50.147709+00:00",
       "filename": "382.jpg",
@@ -20343,6 +22375,70 @@
       "sha256": "c82fdc077db0e74ce6dc9bcee9b6be3543bc457f27deea0f52e05fafb15e0edc",
       "source_url": "https://device-forum.com/media/382/full",
       "title": "iPhone SE ON OFF VOL"
+    },
+    "3820": {
+      "downloaded_at": "2026-09-09T05:59:25.291008+00:00",
+      "filename": "3820.jpg",
+      "page_url": "https://device-forum.com/media/3820/",
+      "sha256": "8cdf6cb84c83298971139b92724ca26e72f1e8dd695863002d3114f732a6a64f",
+      "source_url": "https://device-forum.com/media/3820/full",
+      "title": "REDMI NOTE 7 PRO ON OFF VOL"
+    },
+    "3821": {
+      "downloaded_at": "2026-09-09T05:59:24.681739+00:00",
+      "filename": "3821.jpg",
+      "page_url": "https://device-forum.com/media/3821/",
+      "sha256": "1611de3f9e5b95befd25d41ab7be87b80af0f0ef8e2e333cebc4ecafc79a0611",
+      "source_url": "https://device-forum.com/media/3821/full",
+      "title": "REDMI NOTE 7 PRO SD CARD"
+    },
+    "3822": {
+      "downloaded_at": "2026-09-09T05:59:24.064301+00:00",
+      "filename": "3822.jpg",
+      "page_url": "https://device-forum.com/media/3822/",
+      "sha256": "4229cd86ec88120c2be9a8190daceb396519abc06dcd5ecb53e162fb2b7cca4b",
+      "source_url": "https://device-forum.com/media/3822/full",
+      "title": "REDMI NOTE 7 PRO SIM CARD"
+    },
+    "3823": {
+      "downloaded_at": "2026-09-09T05:59:23.448570+00:00",
+      "filename": "3823.jpg",
+      "page_url": "https://device-forum.com/media/3823/",
+      "sha256": "6c0a67bac62cc9eb30929ee6b116046cd4352fc1fa773e896528c55cee29b0c4",
+      "source_url": "https://device-forum.com/media/3823/full",
+      "title": "REDMI NOTE 7 PRO SUB BOARD (ORI)"
+    },
+    "3824": {
+      "downloaded_at": "2026-09-09T05:59:22.838497+00:00",
+      "filename": "3824.jpg",
+      "page_url": "https://device-forum.com/media/3824/",
+      "sha256": "9c5792495e2f87572645dbbf78f9eee72db1741415a3325111e863d4944e0307",
+      "source_url": "https://device-forum.com/media/3824/full",
+      "title": "REDMI NOTE 7 PRO SUB BOARD"
+    },
+    "3825": {
+      "downloaded_at": "2026-09-09T05:59:22.228944+00:00",
+      "filename": "3825.jpg",
+      "page_url": "https://device-forum.com/media/3825/",
+      "sha256": "56e0a0f5f240beca0924eb20595ba133d415e60c8a3e6bb65869b2d9f5cabaca",
+      "source_url": "https://device-forum.com/media/3825/full",
+      "title": "REDMI NOTE 7 PRO TOUCH SCREEN"
+    },
+    "3826": {
+      "downloaded_at": "2026-09-09T05:59:21.608216+00:00",
+      "filename": "3826.jpg",
+      "page_url": "https://device-forum.com/media/3826/",
+      "sha256": "abd39c47d47e9e18f4b3501a183b746339ee467a9425a8d953ea1b5f8423614a",
+      "source_url": "https://device-forum.com/media/3826/full",
+      "title": "REDMI NOTE 7 PRO UFS EMMC VOLT"
+    },
+    "3827": {
+      "downloaded_at": "2026-09-09T05:59:20.827779+00:00",
+      "filename": "3827.jpg",
+      "page_url": "https://device-forum.com/media/3827/",
+      "sha256": "c69ffc951ba934fb3e409201b1f2ea867ef140a16c5232e7d6f54bca066b6e28",
+      "source_url": "https://device-forum.com/media/3827/full",
+      "title": "REDMI NOTE 7 PRO WIFI BT GPS"
     },
     "383": {
       "downloaded_at": "2026-09-06T13:41:49.549149+00:00",
@@ -20591,6 +22687,310 @@
       "sha256": "ce56866ed059a405550a412770db8f4987fec426ace63dcc83bcc1f21a23aae1",
       "source_url": "https://device-forum.com/media/413/full",
       "title": "iPhone SE 2020 WIFI BT GPS"
+    },
+    "4168": {
+      "downloaded_at": "2026-09-09T05:56:50.116890+00:00",
+      "filename": "4168.jpg",
+      "page_url": "https://device-forum.com/media/4168/",
+      "sha256": "ea7144ad114c9fe9a37dc5a548ead2b7536557f7c5c0abcd1bd401d7810ed45d",
+      "source_url": "https://device-forum.com/media/4168/full",
+      "title": "REDMI PRO BACK CAM 5M"
+    },
+    "4169": {
+      "downloaded_at": "2026-09-09T05:56:49.499078+00:00",
+      "filename": "4169.jpg",
+      "page_url": "https://device-forum.com/media/4169/",
+      "sha256": "0721e1e1f8d2cdbe768ca0cc99d15a0b1f3afef449a7b3bd3379fae40dbea158",
+      "source_url": "https://device-forum.com/media/4169/full",
+      "title": "REDMI PRO BACK CAM 13M"
+    },
+    "4170": {
+      "downloaded_at": "2026-09-09T05:56:48.885629+00:00",
+      "filename": "4170.jpg",
+      "page_url": "https://device-forum.com/media/4170/",
+      "sha256": "c1c2b1783fc319be620ce21f4b501ba348f3a713a548401f4444936384487d73",
+      "source_url": "https://device-forum.com/media/4170/full",
+      "title": "REDMI PRO CHARGER DATA"
+    },
+    "4171": {
+      "downloaded_at": "2026-09-09T05:56:48.265911+00:00",
+      "filename": "4171.jpg",
+      "page_url": "https://device-forum.com/media/4171/",
+      "sha256": "4ba73d4c0446ba0aad39c12422ed4c19af3eb9e1539221bd6951217164b93c3b",
+      "source_url": "https://device-forum.com/media/4171/full",
+      "title": "REDMI PRO COMP NAME BOTTOM"
+    },
+    "4172": {
+      "downloaded_at": "2026-09-09T05:56:47.654498+00:00",
+      "filename": "4172.jpg",
+      "page_url": "https://device-forum.com/media/4172/",
+      "sha256": "2376a25f799af4bfab9376897367048b3e896e9a39085c9200d1a777b0b72c1b",
+      "source_url": "https://device-forum.com/media/4172/full",
+      "title": "REDMI PRO COMP NAME TOP"
+    },
+    "4173": {
+      "downloaded_at": "2026-09-09T05:56:47.038543+00:00",
+      "filename": "4173.jpg",
+      "page_url": "https://device-forum.com/media/4173/",
+      "sha256": "777a5fc01bef102ab4938352d48796e74afc03e31177e160ec184e985150da48",
+      "source_url": "https://device-forum.com/media/4173/full",
+      "title": "REDMI PRO FRONT CAM"
+    },
+    "4174": {
+      "downloaded_at": "2026-09-09T05:56:46.423790+00:00",
+      "filename": "4174.jpg",
+      "page_url": "https://device-forum.com/media/4174/",
+      "sha256": "d87ab4a3152e7e74a4a52c2a1a535223674599082fc4e1d71d36e3d087474c07",
+      "source_url": "https://device-forum.com/media/4174/full",
+      "title": "REDMI PRO HANDSFREE"
+    },
+    "4175": {
+      "downloaded_at": "2026-09-09T05:56:45.808545+00:00",
+      "filename": "4175.jpg",
+      "page_url": "https://device-forum.com/media/4175/",
+      "sha256": "d06eb1b8a269356107bc4c35514f08bcc84cbbc706d65b4fd095082cee98482d",
+      "source_url": "https://device-forum.com/media/4175/full",
+      "title": "REDMI PRO IN OUT VOLT"
+    },
+    "4176": {
+      "downloaded_at": "2026-09-09T05:56:45.187010+00:00",
+      "filename": "4176.jpg",
+      "page_url": "https://device-forum.com/media/4176/",
+      "sha256": "b26c27d00861a3d6bc916bded705c0b40c16a28539f2c7d18df21c96ca39127d",
+      "source_url": "https://device-forum.com/media/4176/full",
+      "title": "REDMI PRO LCD LIGHT"
+    },
+    "4177": {
+      "downloaded_at": "2026-09-09T05:56:44.575474+00:00",
+      "filename": "4177.jpg",
+      "page_url": "https://device-forum.com/media/4177/",
+      "sha256": "9ab51af0d805f95a657220b02d5e309257a84295ec372774d36e4ded415026ae",
+      "source_url": "https://device-forum.com/media/4177/full",
+      "title": "REDMI PRO LCD"
+    },
+    "4178": {
+      "downloaded_at": "2026-09-09T05:56:43.956565+00:00",
+      "filename": "4178.jpg",
+      "page_url": "https://device-forum.com/media/4178/",
+      "sha256": "74f9fcc811564b3f3e1028666c00683b9ff086eb69bcfe234cc3a7bf185a7ce5",
+      "source_url": "https://device-forum.com/media/4178/full",
+      "title": "REDMI PRO MIC SPK EAR"
+    },
+    "4179": {
+      "downloaded_at": "2026-09-09T05:56:43.337485+00:00",
+      "filename": "4179.jpg",
+      "page_url": "https://device-forum.com/media/4179/",
+      "sha256": "9bb7f593cf3933bffc8dabcd938de3c04f541ce92aa37af4057ce7859e557e45",
+      "source_url": "https://device-forum.com/media/4179/full",
+      "title": "REDMI PRO NETWORK"
+    },
+    "4180": {
+      "downloaded_at": "2026-09-09T05:56:42.725240+00:00",
+      "filename": "4180.jpg",
+      "page_url": "https://device-forum.com/media/4180/",
+      "sha256": "96592e42470e053457df5e5edb003b837443c00c7ab94aab8103410c2c3b9afd",
+      "source_url": "https://device-forum.com/media/4180/full",
+      "title": "REDMI PRO ON OFF VOL"
+    },
+    "4181": {
+      "downloaded_at": "2026-09-09T05:56:42.107353+00:00",
+      "filename": "4181.jpg",
+      "page_url": "https://device-forum.com/media/4181/",
+      "sha256": "91ecfad5cb56ff6ff2f804a456c340404064684e9c06719e33b8073542cae609",
+      "source_url": "https://device-forum.com/media/4181/full",
+      "title": "REDMI PRO SIMCARD"
+    },
+    "4182": {
+      "downloaded_at": "2026-09-09T05:56:41.489695+00:00",
+      "filename": "4182.jpg",
+      "page_url": "https://device-forum.com/media/4182/",
+      "sha256": "efb1534e81469113839bacb287c79e81957613520fbb4ae4b7eed913b8b2cea3",
+      "source_url": "https://device-forum.com/media/4182/full",
+      "title": "REDMI PRO SUB BOARD (ORI)"
+    },
+    "4183": {
+      "downloaded_at": "2026-09-09T05:56:40.876715+00:00",
+      "filename": "4183.jpg",
+      "page_url": "https://device-forum.com/media/4183/",
+      "sha256": "65918d16bfe9247c41d90209ed9b5aaed9e7bee4c107a0ad6214246e16e7afb7",
+      "source_url": "https://device-forum.com/media/4183/full",
+      "title": "REDMI PRO SUB BOARD"
+    },
+    "4184": {
+      "downloaded_at": "2026-09-09T05:56:40.260986+00:00",
+      "filename": "4184.jpg",
+      "page_url": "https://device-forum.com/media/4184/",
+      "sha256": "5dc1547a90e160db9a0f73df6b02b310917feed2c265010937c4b0cc352f2ed8",
+      "source_url": "https://device-forum.com/media/4184/full",
+      "title": "REDMI PRO TOUCH SCREEN"
+    },
+    "4185": {
+      "downloaded_at": "2026-09-09T05:56:39.383809+00:00",
+      "filename": "4185.jpg",
+      "page_url": "https://device-forum.com/media/4185/",
+      "sha256": "6c97918c62607058ec76e7909362201e7633b14e9d85d9df3e7a01a10638f0c1",
+      "source_url": "https://device-forum.com/media/4185/full",
+      "title": "REDMI PRO WIFI BT GPS"
+    },
+    "4186": {
+      "downloaded_at": "2026-09-09T05:57:02.486357+00:00",
+      "filename": "4186.jpg",
+      "page_url": "https://device-forum.com/media/4186/",
+      "sha256": "2775a779dc0a540b220924b6d434d264f1b294a78c39df5dc137db0740404cfc",
+      "source_url": "https://device-forum.com/media/4186/full",
+      "title": "REDMI S2 BACK CAM 5M"
+    },
+    "4187": {
+      "downloaded_at": "2026-09-09T05:57:01.874449+00:00",
+      "filename": "4187.jpg",
+      "page_url": "https://device-forum.com/media/4187/",
+      "sha256": "6f92980f3b47da680099b82968668de8d1bd179f6f44b740ecc372c19eb4da55",
+      "source_url": "https://device-forum.com/media/4187/full",
+      "title": "REDMI S2 BACK CAM 12M"
+    },
+    "4188": {
+      "downloaded_at": "2026-09-09T05:57:01.257279+00:00",
+      "filename": "4188.jpg",
+      "page_url": "https://device-forum.com/media/4188/",
+      "sha256": "19901cdcabd21c0de752a347b40cf00f95614a642a71754b39f6f66b185b68fe",
+      "source_url": "https://device-forum.com/media/4188/full",
+      "title": "REDMI S2 CHARGER DATA"
+    },
+    "4189": {
+      "downloaded_at": "2026-09-09T05:57:00.645097+00:00",
+      "filename": "4189.jpg",
+      "page_url": "https://device-forum.com/media/4189/",
+      "sha256": "f312935d6b78cb6e0638e36ec84b5095bdff453f6a164ba820bed16fd7a2d492",
+      "source_url": "https://device-forum.com/media/4189/full",
+      "title": "REDMI S2 COMP NAME (2)"
+    },
+    "4190": {
+      "downloaded_at": "2026-09-09T05:57:00.023248+00:00",
+      "filename": "4190.jpg",
+      "page_url": "https://device-forum.com/media/4190/",
+      "sha256": "b338fa7a9d8431ed1d9fadae8debbf5a56e58b3b64e47d52a98494492bef50c8",
+      "source_url": "https://device-forum.com/media/4190/full",
+      "title": "REDMI S2 COMP NAME"
+    },
+    "4191": {
+      "downloaded_at": "2026-09-09T05:56:59.407072+00:00",
+      "filename": "4191.jpg",
+      "page_url": "https://device-forum.com/media/4191/",
+      "sha256": "0ffedef472822f280a185b5351783973c4f4b4feaf7a69ea4b5e7b2e22ede358",
+      "source_url": "https://device-forum.com/media/4191/full",
+      "title": "REDMI S2 FRONT CAM"
+    },
+    "4192": {
+      "downloaded_at": "2026-09-09T05:56:58.793025+00:00",
+      "filename": "4192.jpg",
+      "page_url": "https://device-forum.com/media/4192/",
+      "sha256": "778fd63764ffdd0e7ba08b262fec5071f6602ea085e9bfc8951fa307898daa1b",
+      "source_url": "https://device-forum.com/media/4192/full",
+      "title": "REDMI S2 HANDSFREE"
+    },
+    "4193": {
+      "downloaded_at": "2026-09-09T05:56:58.177831+00:00",
+      "filename": "4193.jpg",
+      "page_url": "https://device-forum.com/media/4193/",
+      "sha256": "011616e5141a9693a15fb575f8db0ab6a4c2672ed71cc46e5d27f592a2ef9960",
+      "source_url": "https://device-forum.com/media/4193/full",
+      "title": "REDMI S2 IN OUT VOLT (2)"
+    },
+    "4194": {
+      "downloaded_at": "2026-09-09T05:56:57.562572+00:00",
+      "filename": "4194.jpg",
+      "page_url": "https://device-forum.com/media/4194/",
+      "sha256": "886347fbe9b9e8a43c15e45a76e6183272068b3dee9a04dc59027e67fabf8395",
+      "source_url": "https://device-forum.com/media/4194/full",
+      "title": "REDMI S2 IN OUT VOLT"
+    },
+    "4195": {
+      "downloaded_at": "2026-09-09T05:56:56.942236+00:00",
+      "filename": "4195.jpg",
+      "page_url": "https://device-forum.com/media/4195/",
+      "sha256": "a229b026e0d88718a3a1a506040d01b6fa04dae673f8efbe6bca7c13b85669cd",
+      "source_url": "https://device-forum.com/media/4195/full",
+      "title": "REDMI S2 LCD LIGHT"
+    },
+    "4196": {
+      "downloaded_at": "2026-09-09T05:56:56.322854+00:00",
+      "filename": "4196.jpg",
+      "page_url": "https://device-forum.com/media/4196/",
+      "sha256": "ec67ccb5eed272c756a2bfbbebc2d93168954f49ef68cec738d96dffdf03153d",
+      "source_url": "https://device-forum.com/media/4196/full",
+      "title": "REDMI S2 LCD"
+    },
+    "4197": {
+      "downloaded_at": "2026-09-09T05:56:55.710480+00:00",
+      "filename": "4197.jpg",
+      "page_url": "https://device-forum.com/media/4197/",
+      "sha256": "2d29389955855d601c23be6edd2d1a715c0ca9dfb98709629213bc2d9b07aea2",
+      "source_url": "https://device-forum.com/media/4197/full",
+      "title": "REDMI S2 MIC SPK EAR"
+    },
+    "4198": {
+      "downloaded_at": "2026-09-09T05:56:55.045495+00:00",
+      "filename": "4198.jpg",
+      "page_url": "https://device-forum.com/media/4198/",
+      "sha256": "94d01406c92251046fbf15e82fa13531cb034f2aee6a8eabfd8fc7771721ac7c",
+      "source_url": "https://device-forum.com/media/4198/full",
+      "title": "REDMI S2 NETWORK"
+    },
+    "4199": {
+      "downloaded_at": "2026-09-09T05:56:54.429430+00:00",
+      "filename": "4199.jpg",
+      "page_url": "https://device-forum.com/media/4199/",
+      "sha256": "bf9dd842e21143f79b05774baadba552e690f58da97b323a758714521d984a60",
+      "source_url": "https://device-forum.com/media/4199/full",
+      "title": "REDMI S2 ON OFF VOL"
+    },
+    "4200": {
+      "downloaded_at": "2026-09-09T05:56:53.817730+00:00",
+      "filename": "4200.jpg",
+      "page_url": "https://device-forum.com/media/4200/",
+      "sha256": "2206a057e9d490ecc22011d95c41d4b95c1fbb7556e95de613c4bfe3ef1e97cf",
+      "source_url": "https://device-forum.com/media/4200/full",
+      "title": "REDMI S2 SIMCARD"
+    },
+    "4201": {
+      "downloaded_at": "2026-09-09T05:56:53.199105+00:00",
+      "filename": "4201.jpg",
+      "page_url": "https://device-forum.com/media/4201/",
+      "sha256": "550a6c350a7c3256729ada109fec843bf0bd851588528c0b14dcc8f7c88b56d7",
+      "source_url": "https://device-forum.com/media/4201/full",
+      "title": "REDMI S2 SUB BOARD (ORI)"
+    },
+    "4202": {
+      "downloaded_at": "2026-09-09T05:56:52.587225+00:00",
+      "filename": "4202.jpg",
+      "page_url": "https://device-forum.com/media/4202/",
+      "sha256": "e6e56d13d6e7686448905ea470bcf470a81d67fc7fd4af8d0c5847d9d984a45d",
+      "source_url": "https://device-forum.com/media/4202/full",
+      "title": "REDMI S2 SUB BOARD"
+    },
+    "4203": {
+      "downloaded_at": "2026-09-09T05:56:51.969876+00:00",
+      "filename": "4203.jpg",
+      "page_url": "https://device-forum.com/media/4203/",
+      "sha256": "32020287c7558e19cddf267b1104f1608678f26b80c5763258135ca7200da7ae",
+      "source_url": "https://device-forum.com/media/4203/full",
+      "title": "REDMI S2 TOUCH SCREEN"
+    },
+    "4204": {
+      "downloaded_at": "2026-09-09T05:56:51.348878+00:00",
+      "filename": "4204.jpg",
+      "page_url": "https://device-forum.com/media/4204/",
+      "sha256": "407bfd266fbc5eb758fcb7fb905e8d26476433453e29817b7bb1b62dd058847a",
+      "source_url": "https://device-forum.com/media/4204/full",
+      "title": "REDMI S2 UFS EMMC VOLT"
+    },
+    "4205": {
+      "downloaded_at": "2026-09-09T05:56:50.735037+00:00",
+      "filename": "4205.jpg",
+      "page_url": "https://device-forum.com/media/4205/",
+      "sha256": "5b76f06de215e7bbac74297c39dbc4bc46b23c09b28beb3968ff1084652b358d",
+      "source_url": "https://device-forum.com/media/4205/full",
+      "title": "REDMI S2 WIFI BT GPS"
     },
     "4206": {
       "downloaded_at": "2026-09-07T20:34:04.873783+00:00",
